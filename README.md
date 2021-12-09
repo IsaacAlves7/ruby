@@ -1,4 +1,4 @@
-# <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" height="27"></a> It's a repository of Ruby language from scratch 💎🔢
+# <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" height="27"></a> It's a repository of Ruby language from scratch 💎
 
 <blockquote>I created this repository for my Ruby Full-Stack development learning.</blockquote>
 
