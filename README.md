@@ -4,6 +4,8 @@
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.bacancytechnology.com/blog/wp-content/uploads/2017/05/Banner.jpg"></a></div>
 
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="277"></a></div>
+
 ----
 
 # 💎 Linguagem Ruby 💎
