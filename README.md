@@ -55,6 +55,9 @@ exit()
 
 É um framework para fazer aplicações web escrito em Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp** que era o software da empresa do DHH, era um software de gerenciamento de tarefas. 
 
+# 💎 MVC padrão 🎛️
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png"></div>
+
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
