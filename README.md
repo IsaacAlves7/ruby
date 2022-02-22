@@ -59,9 +59,11 @@ exit()
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png"></div>
 
 # 💎 Gems 💎
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
+<div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
-# 💎 RubyOnRails 🚊
+São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio RubyOnRails. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
+
+# 💎 ROR - RubyOnRails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" width="277"></a></div><br \>
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://techwynd.com/system/blog_posts/covers/000/000/004/original/ruby-on-rails.jpg?1482447851"></a></div>
