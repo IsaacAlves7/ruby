@@ -49,7 +49,9 @@ exit()
 ```
 
 # 🚊 Rails 🚊
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" width="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
+
+É um framework escrito em Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH), 
 
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
