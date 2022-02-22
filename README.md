@@ -51,7 +51,7 @@ exit()
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
-É um framework escrito em Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH), 
+É um framework para fazer aplicações web escrito em Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp** que era o software da empresa do DHH, era um software de gerenciamento de tarefas. 
 
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
