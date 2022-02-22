@@ -30,7 +30,12 @@ class Hello
  # saída: "Olá, mundo!"
  g.falar
 ~~~~
-  
+
+Possui uma **tipagem dinâmica** e **forte** .
+
+## irb
+
+
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
