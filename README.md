@@ -11,7 +11,27 @@
 
 O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão. É uma linguagem de programação interpretada e multi-paradigma com foco em simplicidade. Possui uma popularidade em 2001 após o livro "Programming Ruby".
 
-É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de 
+É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita.
+
+<b>Sintaxe</b>:
+
+```ruby
+class Hello
+  def initialize (nome):
+    @nome = nome.capitalize
+  end
+  
+  def falar
+    puts "Olá #{@nome}"
+  end
+ end
+ 
+ # Criar um objeto
+ h = Hello.new("mundo")
+ 
+ # saída: "Olá, mundo!"
+ g.falar
+```
 
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
@@ -27,7 +47,6 @@ O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.mobiloitte.com/images/ruby-on-rails-banner.png"></a></div>
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/main-7ad955b6ad6dee9fb7c7bc56ad1a9c00bbfe8ae0f0ddaeacb233f5e32727c7e3.png"></a></div>
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png"></a></div>
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://blogvaronis2.wpengine.com/wp-content/uploads/2019/08/programming-language-ruby@2x.png"></a></div>
 
 ```ruby
 puts "Hello World!"
