@@ -34,7 +34,10 @@ class Hello
 Possui uma **tipagem dinâmica** e **forte** .
 
 ## irb
-
+```
+irb
+7.times { puts "Hello, World!" }
+```
 
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
