@@ -48,14 +48,14 @@ irb
 exit()
 ```
 
+# 🚊 Rails 🚊
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" width="277"></a></div><br \>
 
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
 # 💎 RubyOnRails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" width="277"></a></div><br \>
-
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" width="277"></a></div><br \>
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://techwynd.com/system/blog_posts/covers/000/000/004/original/ruby-on-rails.jpg?1482447851"></a></div>
 
