@@ -12,10 +12,8 @@
 O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão. É uma linguagem de programação interpretada e multi-paradigma com foco em simplicidade. Possui uma popularidade em 2001 após o livro "Programming Ruby".
 
 É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita.
-
-<details><summary><b>Sintaxe</b>:<summary>
-
-```ruby
+  
+~~~ruby
 class Hello
   def initialize (nome):
     @nome = nome.capitalize
@@ -31,9 +29,7 @@ class Hello
  
  # saída: "Olá, mundo!"
  g.falar
-```
-
-</details>
+~~~~
   
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
