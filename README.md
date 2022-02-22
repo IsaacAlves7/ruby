@@ -35,6 +35,13 @@ class Hello
 
 Possui uma **tipagem dinâmica** e **forte** .
 
+## Gerenciadores de versões - Ambiente de desenvolvimento
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" width="277"><img src="" width="277"></a></div><br \>
+
+- **RVM** (Mais popular)
+- rbenv
+- **asdf** (Mais recomendável)
+
 ## irb
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://freesvg.org/img/karthikeyan-ruby-flatmix.png" width="277"></a></div><br \>
 
