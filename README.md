@@ -13,7 +13,7 @@ O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão
 
 É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita.
 
-<b>Sintaxe</b>:
+<details><summary><b>Sintaxe</b>:<summary>
 
 ```ruby
 class Hello
@@ -33,6 +33,8 @@ class Hello
  g.falar
 ```
 
+</details>
+  
 # 💎 Gems 💎
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
