@@ -651,6 +651,16 @@ ruby main.rb
 O tamanho da minha string é: 30
 </pre>
 
+### Operações com Strings
+#### Pegar um caracter da String
+
+<pre>
+01234
+"Isaac"[0]
+</pre>
+
+----
+
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
