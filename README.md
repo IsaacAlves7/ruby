@@ -273,8 +273,18 @@ ruby main.rb
 Hello World
 </pre>
 
-## Executando um código-fonte
+# 💎 Executando um código-fonte 📑
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png"></a></div>
+
+## Strings
+Podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
+
+**Exemplo:**
+```ruby
+nome = "Isaac"
+nome = 'Isaac'
+nome = %q(meu texto)
+```
 
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
