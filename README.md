@@ -323,6 +323,23 @@ mensagem = <<~TXT
 TXT
 ```
 
+**Código:**
+~~~ruby
+nome = "Isaac"
+puts nome
+~~~
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Isaac
+</pre>
+
 ----
 
 # 🚊 Rails 🚊
