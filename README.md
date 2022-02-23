@@ -389,8 +389,10 @@ Obrigado
 **Código-fonte `mensagem.rb`:**
 ~~~ruby
 mensagem = %q(Bem vindo ao meu programa)
+mensagemErrada = %q(Bem vindo ao meu programa #{nome})
 
 puts mensagem
+puts mensagemErrada
 ~~~
 
 **(Input) Entrada:**
@@ -402,6 +404,7 @@ ruby main.rb
 
 <pre>
 Bem vindo ao meu programa
+Bem vindo ao meu programa #{nome}
 </pre>
 
 ----
