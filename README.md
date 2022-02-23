@@ -239,6 +239,24 @@ soma
 15
 </pre>
 
+> Array (Listas)
+
+**(Input) Entrada:**
+```ruby
+lista = ["Isaac", 7, "DevOps", true, nil, 7.77]
+
+lista
+
+lista.class
+```
+
+**(Output) Saída:**
+
+<pre>
+["Isaac", 7, "DevOps", true, nil, 7.77]
+Array
+</pre>
+
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
