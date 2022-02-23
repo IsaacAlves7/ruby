@@ -329,16 +329,18 @@ TXT
 ~~~ruby
 nome = "Isaac"
 mensagem = "Bem vindo #{nome}"
+mensagemErrada = 'Bem vindo #{nome}'
 soma = "O valor da soma de 1 + 2 = #{1 + 2}"
 outraMensagem = "Bem vindo" + nome
 
 puts nome
 puts mensagem
+puts mensagemErrada
 puts soma
 puts outraMensagem
 ~~~
 
-> `#{}` não serve somente para strings, mas sim para interpolação de código.
+> `#{}` não serve somente para strings, mas sim para interpolação de código. Os apóstrofos se inseridos em conjunto com o delimitador de manipulação de variável retornarão o mesmo código inserido.
 
 **(Input) Entrada:**
 ```ruby
@@ -350,6 +352,7 @@ ruby main.rb
 <pre>
 Isaac
 Bem vindo Isaac
+Bem vindo #{nome}
 O valor da soma de 1 + 2 = 3
 Bem vindo Isaac
 </pre>
