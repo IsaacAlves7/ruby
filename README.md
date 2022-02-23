@@ -113,6 +113,7 @@ Hello, World!
 nome = Isaac
 nome
 ```
+
 **(Output) Saída:**
 <pre>
 Isaac
@@ -125,9 +126,34 @@ Isaac
 nome = 7
 nome
 ```
+
 **(Output) Saída:**
 <pre>
 7
+</pre>
+
+> Verificando objetos
+
+**(Input) Entrada:**
+```ruby
+nome.object_id
+```
+
+**(Output) Saída:**
+
+<pre>
+21
+</pre>
+
+**(Input) Entrada:**
+```ruby
+nome.class
+```
+
+**(Output) Saída:**
+
+<pre>
+Integer
 </pre>
 
 # 🚊 Rails 🚊
