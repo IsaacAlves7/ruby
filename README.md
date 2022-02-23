@@ -656,12 +656,27 @@ O tamanho da minha string é: 30
 
 ```ruby
 # 01234
-"Isaac"[0] # 0 = I
+"Isaac"[0] # "I"
 ```
 
 #### Todos os caracteres da string como array
 ```ruby
-"Isaac".chars
+"Isaac".chars # ["I", "s", "a", "a", "c"]
+```
+
+#### Substring
+```ruby
+"Isaac"[0,3] # "Isa"
+```
+
+#### Multiplicação de Strings
+```ruby
+"-" * 10 #  "----------"
+```
+
+#### Multiplicação de Strings
+```ruby
+"   mensagem   ".strip #  "mensagem"
 ```
 
 ----
