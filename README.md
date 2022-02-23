@@ -35,6 +35,11 @@ class Hello
 
 Possui uma **tipagem dinâmica** e **forte** .
 
+## Hello, World! - Ruby
+```ruby
+puts "Hello World!"
+```
+
 ## Gerenciadores de versões - Ambiente de desenvolvimento
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" width="277"></a></div><br \>
 
@@ -50,11 +55,17 @@ Existe alguns tipos de gerenciadores de versão indicados:
 
 Vou usar o **asdf**, você pode usar ele nos sistemas operacionais Linux ou no macOS, além dos interpretadores de comando UNIX, como Bash, ZSH ou Fish.
 
-### Comandos utilizados:
+### Comandos utilizados para iniciar o asdf:
 ```
 echo $SHELL
 code ~/.zshrc
 asdf version
+asdf plugin-add ruby
+asdf install ruby 2.7.1
+ruby -v
+asdf list ruby
+asdf local ruby 2.7.1
+asdf list nodejs
 ```
 
 ## irb
@@ -94,10 +105,6 @@ São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.mobiloitte.com/images/ruby-on-rails-banner.png"></a></div>
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/main-7ad955b6ad6dee9fb7c7bc56ad1a9c00bbfe8ae0f0ddaeacb233f5e32727c7e3.png"></a></div>
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png"></a></div>
-
-```ruby
-puts "Hello World!"
-```
 
 
 
