@@ -162,10 +162,24 @@ Integer
 nil.object_id
 ```
 
+> nil = valor nulo
+
 **(Output) Saída:**
 
 <pre>
 8
+</pre>
+
+
+**(Input) Entrada:**
+```ruby
+nil.class
+```
+
+**(Output) Saída:**
+
+<pre>
+NilClass
 </pre>
 
 # 🚊 Rails 🚊
