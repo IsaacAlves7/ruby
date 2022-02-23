@@ -89,13 +89,15 @@ Esse REPL serve para programação na linguagem de script orientada a objetos Ru
 
 O programa é iniciado a partir de uma **linha de comando** ( CLI - Command Line Interface ) e permite a execução de comandos Ruby com resposta imediata, experimentando em tempo real. Possui histórico de comandos , recursos de edição de linha e controle de tarefas , e é capaz de se comunicar diretamente como um script de shell pela Internet e interagir com um servidor ativo. Foi desenvolvido por Keiju Ishitsuka .
 
+**Entrada:**
 ```ruby
 irb
 7.times { puts "Hello, World!" }
 exit()
 ```
-> A saída será o Hello, World impresso 7 vezes em cada linha
+> A saída será o "Hello, World!" impresso 7 vezes em cada linha.
 
+**Saída:**
 <pre>
 Hello, World!
 Hello, World!
@@ -106,12 +108,24 @@ Hello, World!
 Hello, World!
 </pre>
 
+**Entrada:**
 ```ruby
 nome = Isaac
 nome
+```
+**Saída:**
+<pre>
+
+</pre>
+
+> Linguagem de tipagem dinâmica que pode trocar a tipagem a qualquer momento.
+
+```ruby
 nome = 7
 nome
 ```
+
+
 
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
