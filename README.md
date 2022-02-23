@@ -243,18 +243,21 @@ soma
 
 **(Input) Entrada:**
 ```ruby
-lista = ["Isaac", 7, "DevOps", true, nil, 7.77]
+lista = ["Isaac", 7, "DevOps", true, nil, 7.77, "Ruby"]
 
 lista
 
 lista.class
+
+lista.length
 ```
 
 **(Output) Saída:**
 
 <pre>
-["Isaac", 7, "DevOps", true, nil, 7.77]
+["Isaac", 7, "DevOps", true, nil, 7.77, "Ruby"]
 Array
+7
 </pre>
 
 # 🚊 Rails 🚊
