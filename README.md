@@ -385,6 +385,25 @@ Bem vindo(a) ao meu programa!
 
 Obrigado
 </pre>
+
+**Código-fonte `mensagem.rb`:**
+~~~ruby
+mensagem = %q(Bem vindo ao meu programa)
+
+puts mensagem
+~~~
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Bem vindo ao meu programa
+</pre>
+
 ----
 
 # 🚊 Rails 🚊
