@@ -42,6 +42,8 @@ O **gerenciamento de versão** se refere ao processo de planejamento, desenvolvi
 
 No mundo competitivo, dinâmico e fluído dos negócios e da TI, as versões prematuras são a última coisa de que você precisa. A empresa moderna é um ambiente verdadeiramente dinâmico, e nem todas essas alterações ocorrem no mesmo ritmo. As organizações de TI precisam de um jeito para orquestrar essa grande quantidade de alterações. É aí que as soluções **Release Control** e **Deployment Automation** entram em cena. Elas ajudam a facilitar a transição para a entrega contínua, e trabalham com a transformação digital, uma versão de cada vez. Essa é a nova normalidade da TI.
 
+Existe alguns tipos de gerenciadores de versão indicados:
+
 - **RVM** (Mais popular)
 - rbenv
 - [asdf](https://asdf-vm.com/) (Mais recomendável)
@@ -50,7 +52,9 @@ Vou usar o **asdf**, você pode usar ele nos sistemas operacionais Linux ou no m
 
 ### Comandos utilizados:
 ```
-
+echo $SHELL
+code ~/.zshrc
+asdf version
 ```
 
 ## irb
