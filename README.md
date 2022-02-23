@@ -654,10 +654,15 @@ O tamanho da minha string é: 30
 ### Operações com Strings
 #### Pegar um caracter da String
 
-<pre>
-01234
-"Isaac"[0]
-</pre>
+```ruby
+# 01234
+"Isaac"[0] # 0 = I
+```
+
+#### Todos os caracteres da string como array
+```ruby
+"Isaac".chars
+```
 
 ----
 
