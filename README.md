@@ -260,7 +260,7 @@ Array
 7
 </pre>
 
-> Executando o Ruby pelo terminal
+> Executando o Ruby pelo interpretador no terminal
 
 **(Input) Entrada:**
 ```ruby
