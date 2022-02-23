@@ -274,7 +274,7 @@ Hello World
 </pre>
 
 # 💎 Executando um código-fonte 📑
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png" height="277"></a></div>
 
 ## Comentário
 ```ruby
@@ -282,7 +282,7 @@ Hello World
 ```
 
 ## Strings
-Podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
+São tipos de dados tratados como escrita ou texto, podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
 
 **Exemplo:**
 ```ruby
@@ -315,6 +315,14 @@ mensagem = "Bem vindo #{nome}"
 
 puts mensagem
 ```
+
+### Heredoc
+```ruby
+mensagem = <<~TXT
+  Essa é minha mensagem
+TXT
+```
+
 ----
 
 # 🚊 Rails 🚊
