@@ -409,7 +409,6 @@ Bem vindo ao meu programa #{nome}
 
 > Caso queira interpolar com o delimitador de manipulação de variável `%q`, é necessário usar o `%Q`.
 
-
 **Código-fonte `mensagem.rb`:**
 ~~~ruby
 nome = "Isaac"
@@ -428,6 +427,24 @@ ruby main.rb
 Bem vindo ao meu programa Isaac
 </pre>
 
+**Código-fonte `public-methods.rb`:**
+~~~ruby
+nome = "Isaac"
+mensagem = %Q(Bem vindo ao meu programa #{nome})
+puts mensagem.public_methods
+puts mensagem
+~~~
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Bem vindo ao meu programa Isaac
+</pre>
 ----
 
 # 🚊 Rails 🚊
