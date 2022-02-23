@@ -24,7 +24,7 @@
 
 O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão. É uma linguagem de programação interpretada e multi-paradigma com foco em simplicidade. Possui uma popularidade em 2001 após o livro "Programming Ruby".
 
-É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita.
+É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita. Além disso, tudo no Ruby é tratado como **objeto** da mesma forma como é na linguagem JavaScript, diferente da linguagem Java e C# que possui classes, métodos e atributos.
   
 ~~~ruby
 class Hello
@@ -44,7 +44,7 @@ class Hello
  g.falar
 ~~~~
 
-Possui uma **tipagem dinâmica** e **forte** .
+Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de programação Python.
 
 ## Hello, World! - Ruby
 ```ruby
