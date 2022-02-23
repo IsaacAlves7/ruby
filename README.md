@@ -357,7 +357,7 @@ O valor da soma de 1 + 2 = 3
 Bem vindo Isaac
 </pre>
 
-**Código-fonte `main.rb`:**
+**Código-fonte `mensagem.rb`:**
 ~~~ruby
 nome = "Isaac"
 mensagem = <<-MENSAGEM
