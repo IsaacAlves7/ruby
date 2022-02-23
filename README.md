@@ -327,10 +327,13 @@ TXT
 ~~~ruby
 nome = "Isaac"
 mensagem = "Bem vindo #{nome}"
-mensagem = "O valor da soma de 1 + 2 = #{1 + 2}"
+soma = "O valor da soma de 1 + 2 = #{1 + 2}"
+outraMensagem = "Bem vindo" + nome
 
 puts nome
 puts mensagem
+puts soma
+puts outraMensagem
 ~~~
 
 > `#{}` não serve somente para strings, mas sim para interpolação de código.
@@ -346,6 +349,7 @@ ruby main.rb
 Isaac
 Bem vindo Isaac
 O valor da soma de 1 + 2 = 3
+Bem vindo Isaac
 </pre>
 
 ----
@@ -353,23 +357,26 @@ O valor da soma de 1 + 2 = 3
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
-É um framework para fazer aplicações web escrito em Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp** que era o software da empresa do DHH, era um software de gerenciamento de tarefas. 
+É um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, empresa do DHH, cujo era um software de gerenciamento de tarefas.
+
+----
 
 # 💎 MVC padrão 🎛️
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png"></div>
+
+----
 
 # 💎 Gems 💎
 <div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
 São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio RubyOnRails. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
 
+----
+
 # 💎 ROR - RubyOnRails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="277"></a></div><br \>
 
+----
+
 # 💎 Pratical Project: (CRUD) React.js + RubyOnRails ⚛️
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg"></a></div>
-
-
-
-
-
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg"></a></div><br \>
