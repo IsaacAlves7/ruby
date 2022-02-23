@@ -224,6 +224,20 @@ Outra coisa...
 3
 </pre>
 
+> Atribuição de uma função
+
+**(Input) Entrada:**
+```ruby
+soma = somar (10, 5)
+
+soma
+```
+
+**(Output) Saída:**
+
+<pre>
+15
+</pre>
 
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
