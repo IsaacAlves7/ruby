@@ -632,6 +632,26 @@ Bem vindo ao meu programa Isaac
 </pre>
 ----
 
+**Código-fonte `mensagem.rb`:**
+~~~ruby
+nome = "Isaac"
+mensagem = %Q(Bem vindo ao meu programa #{nome})
+
+puts "O tamanho da minha string é: #{mensagem.length()}"
+~~~
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Bem vindo ao meu programa Isaac
+O tamanho da minha string é: 30
+</pre>
+
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
