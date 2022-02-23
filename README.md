@@ -205,6 +205,26 @@ NilClass.superclass
 Object
 </pre>
 
+> Definindo funções:
+
+**(Input) Entrada:**
+```ruby
+def somar (x,y)
+  puts "Outra coisa..."
+  x+y
+end
+
+somar (1, 2)
+```
+
+**(Output) Saída:**
+
+<pre>
+Outra coisa...
+3
+</pre>
+
+
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
