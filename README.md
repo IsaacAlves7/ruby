@@ -357,6 +357,34 @@ O valor da soma de 1 + 2 = 3
 Bem vindo Isaac
 </pre>
 
+**Código-fonte `main.rb`:**
+~~~ruby
+nome = "Isaac"
+mensagem = <<-MENSAGEM
+  Olá #{nome}
+  
+  Bem vindo(a) ao meu programa!
+  
+  Obrigado
+MENSAGEM
+
+puts mensagem
+~~~
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Olá Isaac
+
+Bem vindo(a) ao meu programa!
+
+Obrigado
+</pre>
 ----
 
 # 🚊 Rails 🚊
