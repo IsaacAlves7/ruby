@@ -342,7 +342,7 @@ São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="277"></a></div><br \>
 
 # 💎 Pratical Project: (CRUD) React.js + RubyOnRails ⚛️
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg" height="277"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg"></a></div>
 
 
 
