@@ -260,6 +260,19 @@ Array
 7
 </pre>
 
+> Executando o Ruby pelo terminal
+
+**(Input) Entrada:**
+```ruby
+ruby main.rb
+```
+
+**(Output) Saída:**
+
+<pre>
+Hello World
+</pre>
+
 ## Executando um código-fonte
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png"></a></div>
 
