@@ -326,8 +326,14 @@ TXT
 **Código-fonte `main.rb`:**
 ~~~ruby
 nome = "Isaac"
+mensagem = "Bem vindo #{nome}"
+mensagem = "O valor da soma de 1 + 2 = #{1 + 2}"
+
 puts nome
+puts mensagem
 ~~~
+
+> `#{}` não serve somente para strings, mas sim para interpolação de código.
 
 **(Input) Entrada:**
 ```ruby
@@ -338,6 +344,8 @@ ruby main.rb
 
 <pre>
 Isaac
+Bem vindo Isaac
+O valor da soma de 1 + 2 = 3
 </pre>
 
 ----
