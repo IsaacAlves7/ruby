@@ -118,7 +118,7 @@ nome
 Isaac
 </pre>
 
-> Linguagem de tipagem dinâmica que pode trocar a tipagem a qualquer momento.
+> Linguagem de tipagem dinâmica que pode trocar a tipagem a qualquer momento. Como é de costume e padrão, sempre o último valor atribuído é o que conta!
 
 **(Input) Entrada:**
 ```ruby
