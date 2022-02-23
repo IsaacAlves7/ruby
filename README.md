@@ -323,7 +323,7 @@ mensagem = <<~TXT
 TXT
 ```
 
-**Código:**
+**Código-fonte `main.rb`:**
 ~~~ruby
 nome = "Isaac"
 puts nome
