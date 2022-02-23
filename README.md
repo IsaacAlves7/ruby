@@ -94,6 +94,24 @@ irb
 7.times { puts "Hello, World!" }
 exit()
 ```
+> A saída será o Hello, World impresso 7 vezes em cada linha
+
+<pre>
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+</pre>
+
+```ruby
+nome = Isaac
+nome
+nome = 7
+nome
+```
 
 # 🚊 Rails 🚊
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
