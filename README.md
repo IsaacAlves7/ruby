@@ -46,8 +46,9 @@ No mundo competitivo, dinâmico e fluído dos negócios e da TI, as versões pre
 - rbenv
 - [asdf](https://asdf-vm.com/) (Mais recomendável)
 
-Vou usar o **asdf**:
+Vou usar o **asdf**, você pode usar ele nos sistemas operacionais Linux ou no macOS, além dos interpretadores de comando UNIX, como Bash, ZSH ou Fish.
 
+### Comandos utilizados:
 ```
 
 ```
