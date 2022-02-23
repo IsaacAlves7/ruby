@@ -648,7 +648,6 @@ ruby main.rb
 **(Output) Saída:**
 
 <pre>
-Bem vindo ao meu programa Isaac
 O tamanho da minha string é: 30
 </pre>
 
