@@ -662,6 +662,8 @@ O tamanho da minha string é: 30
 "Isaac".chars # ["I", "s", "a", "a", "c"]
 ```
 
+
+
 #### Substring
 ```ruby
 "Isaac"[0,3] # "Isa"
