@@ -71,8 +71,6 @@ Vou usar o **asdf**, você pode usar ele nos sistemas operacionais Linux ou no m
 
 ### Comandos utilizados para iniciar o asdf:
 ```
-echo $SHELL
-code ~/.zshrc
 asdf version
 asdf plugin-add ruby
 asdf install ruby 2.7.1
@@ -677,6 +675,12 @@ O tamanho da minha string é: 30
 #### Multiplicação de Strings
 ```ruby
 "   mensagem   ".strip #  "mensagem"
+```
+
+#### Maiúsculo/Minúsculo
+```ruby
+"isaac".upcase # upcase
+"I"
 ```
 
 ----
