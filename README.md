@@ -701,6 +701,7 @@ O tamanho da minha string é: 30
 nome = "Cadu"
 
 puts ["A", "B", "C"]
+print ["A", "B", "C"]
 p ["A", "B", "C"]
 ```
 
