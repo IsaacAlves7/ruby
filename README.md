@@ -682,7 +682,26 @@ O tamanho da minha string é: 30
 #### Maiúsculo/Minúsculo
 ```ruby
 "isaac".upcase # upcase
-"I"
+"ISAAC".downcase # downcase
+```
+
+#### Primeira letra maíuscula
+```ruby
+"isaac".capitalize
+```
+
+#### Dividir
+```ruby
+"cadu teste outra_nome".split
+"cadu-teste-outro_nome".split("-")
+```
+
+#### Brincando com manipulação de variáveis e operações de Strings
+```ruby
+nome = "Cadu"
+
+puts ["A", "B", "C"]
+p ["A", "B", "C"]
 ```
 
 ----
