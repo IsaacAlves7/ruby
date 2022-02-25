@@ -696,7 +696,7 @@ O tamanho da minha string é: 30
 "cadu-teste-outro_nome".split("-")
 ```
 
-#### Brincando com manipulação de variáveis e operações de Strings
+### Brincando com manipulação de variáveis e operações de Strings
 > o comando `p` imprime a string da sua forma natural inserida pelo programador, diferente do comando `print` que imprime com valor nulo.
 
 ```ruby
@@ -709,6 +709,7 @@ p "quebra automaticamente\"" # quebra de linha
 p nome
 p nome[0]
 p nome[nome.length - 1]
+p nome[-1]
 ```
 
 **(Input) Entrada:**
@@ -728,6 +729,8 @@ C
 "I"
 "c"
 </pre>
+
+
 
 ----
 
