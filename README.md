@@ -80,6 +80,8 @@ asdf local ruby 2.7.1
 asdf list nodejs
 ```
 
+----
+
 # irb - Interactive Ruby
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://freesvg.org/img/karthikeyan-ruby-flatmix.png" width="277"></a></div><br \>
 
@@ -273,7 +275,9 @@ ruby main.rb
 Hello World
 </pre>
 
-# Paradigma Imperativo
+----
+
+# Paradigma Imperativo/ Procedural
 
 ## Executando um código-fonte
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png" height="277"></a></div>
