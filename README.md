@@ -50,6 +50,9 @@ Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de pro
 ```ruby
 puts "Hello World!"
 puts ("Hello World!")
+p "Hello, World!"
+print "Hello, World!"
+printf "Hello, World!"
 ```
 
 ----
