@@ -80,7 +80,7 @@ asdf local ruby 2.7.1
 asdf list nodejs
 ```
 
-## irb - Interactive Ruby
+# irb - Interactive Ruby
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://freesvg.org/img/karthikeyan-ruby-flatmix.png" width="277"></a></div><br \>
 
 Traduzido do inglês-O _Interactive Ruby Shell_ é um **REPL** (Um loop read-eval-print ( REPL ), também chamado de toplevel interativo ou shell de linguagem , é um ambiente de programação de computador interativo simples que recebe entradas de um único usuário, as executa e retorna o resultado para o usuário; um programa escrito em um ambiente REPL é executado por partes. O termo geralmente se refere a interfaces de programação semelhantes ao ambiente interativo clássico de máquina **Lisp** . Exemplos comuns incluem shells de linha de comando e ambientes semelhantes para linguagens de programação , e a técnica é muito característica de linguagens de script).
@@ -273,7 +273,9 @@ ruby main.rb
 Hello World
 </pre>
 
-# 💎 Executando um código-fonte 📑
+# Paradigma Imperativo
+
+## Executando um código-fonte
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png" height="277"></a></div>
 
 ## Comentário
@@ -756,7 +758,7 @@ O número é 00007
 Minha mulher
 </pre>
 
-
+## Tipos numéricos
 
 ----
 
