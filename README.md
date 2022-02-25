@@ -774,10 +774,10 @@ irb
 ```
 
 **(Output) Saída**
-```ruby
+<pre>
 Integer
 Float
-```
+</pre>
 
 ## `Int` - Inteiros
 
