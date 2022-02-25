@@ -765,7 +765,24 @@ O número é 00007
 Minha mulher
 </pre>
 
-## Tipos numéricos
+# Tipos numéricos
+**(Input) Entrada**
+```ruby
+irb
+7.class
+7.7.class
+```
+
+**(Output) Saída**
+```ruby
+Integer
+Float
+```
+
+## `Int` - Inteiros
+
+
+## `Float` - Flutuante
 
 ----
 
