@@ -711,6 +711,10 @@ p nome[0]
 p nome[nome.length - 1]
 p nome[-1]
 p nome.chars
+p nome[0,3]
+# multiplicação de strings
+puts "Cabeçalho"
+puts "texto de informação"
 ```
 
 **(Input) Entrada:**
@@ -730,6 +734,7 @@ C
 "I"
 "c"
 ["I","s","a","a","c"]
+"Isa"
 </pre>
 
 
