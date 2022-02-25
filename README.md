@@ -701,6 +701,9 @@ O tamanho da minha string é: 30
 
 ```ruby
 nome = "Isaac"
+nomes = "isaac matheus janaina alexandre jurema fábio cauã gabriela jade nemo marlim fanny jajá azul".split(",")
+numero = 7
+mensagem = "minha mensagem"
 
 puts ["A", "B", "C"]
 print ["A", "B", "C"]
@@ -711,10 +714,19 @@ p nome[0]
 p nome[nome.length - 1]
 p nome[-1]
 p nome.chars
+p nome.chars.length
 p nome[0,3]
 # multiplicação de strings
 puts "Cabeçalho"
+puts "---------"
 puts "texto de informação"
+puts "-" * 10
+puts "O número é %05d" % numero
+puts "*" * 10
+puts mensagem.capitalize
+# gsub
+puts mensagem.gsub("mensagem","mulher")
+p nomes
 ```
 
 **(Input) Entrada:**
@@ -734,7 +746,14 @@ C
 "I"
 "c"
 ["I","s","a","a","c"]
+5
 "Isa"
+Cabeçalho
+---------
+texto de informação
+---------
+O número é 00007
+Minha mulher
 </pre>
 
 
