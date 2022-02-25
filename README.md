@@ -710,6 +710,7 @@ p nome
 p nome[0]
 p nome[nome.length - 1]
 p nome[-1]
+p nome.chars
 ```
 
 **(Input) Entrada:**
@@ -728,6 +729,7 @@ C
 "Isaac"
 "I"
 "c"
+["I","s","a","a","c"]
 </pre>
 
 
