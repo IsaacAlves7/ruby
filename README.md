@@ -954,7 +954,22 @@ p resultado
 </pre>
 
 ## Hashes
-Em algumas linguagens de programação o Hash é chamado de **HashMap** ou **dicionário**.
+Em algumas linguagens de programação o Hash é chamado de **Hash-Map** ou **dicionário** (é uma estrutura de chave-valor). O Hash permite você acessar qualquer índice diretamente na memória do computador.
+
+**Para iniciar um Hash**
+```ruby
+hash = {}
+# ou
+hash = Hash.new
+```
+
+**Sintaxe do Hash**
+```ruby
+hash = {
+  chave => valor,
+  chave => valor,
+}
+```
 
 ----
 
