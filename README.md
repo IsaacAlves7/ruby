@@ -804,7 +804,16 @@ puts 123_500
 </pre>
 
 ## `Float` - Flutuante
+**(Input) Entrada**
+```ruby
+# soma com inteiro e flutuante
+soma = 3 + 4.77
+```
 
+**(Output) Saída**
+<pre>
+7.77
+</pre>
 ----
 
 # Paradigma de Programação Orientada a Objetos (POO) 
