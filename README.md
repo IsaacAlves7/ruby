@@ -814,6 +814,9 @@ p soma
 7.77
 </pre>
 
+## Símbolos
+
+
 > Como tudo no Ruby é considerado um objeto, vamos enviar mensagem de um objeto com o método `send`. Esse método invoca outro método, com um argumento de operações.  
 
 **(Input) Entrada**
