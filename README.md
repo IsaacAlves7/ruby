@@ -834,12 +834,31 @@ p 7.send("+", 7)
 **(Input) Entrada**
 ```ruby
 irb
+# filtrando os métodos públicos de 7 que contèm o sinal +
 7.public_methods.grep /\+/
 ```
 
 **(Output) Saída**
 <pre>
-14
+[:+, :+@]
+</pre>
+
+> com uma classe (Poo)
+
+**(Input) Entrada**
+```ruby
+class Integer
+  def +(outro_valor)
+    self - outro_valor
+  end
+end
+
+p 10 + 5
+```
+
+**(Output) Saída**
+<pre>
+[:+, :+@]
 </pre>
 
 ----
