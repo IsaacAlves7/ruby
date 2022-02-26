@@ -4,7 +4,7 @@
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.bacancytechnology.com/blog/wp-content/uploads/2017/05/Banner.jpg"></a></div>
 
-# 🎒 Prerequisites and repositories 📚:
+# 🎒 Prerequisites and repositories 📚
 <ul>
   <li>Good domains in English;</li>
   <li>Front-End: HTML5, CSS3, JS and Frameworks;</li>
