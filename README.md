@@ -684,8 +684,6 @@ O tamanho da minha string é: 30
 "Isaac".chars # ["I", "s", "a", "a", "c"]
 ```
 
-
-
 #### Substring
 ```ruby
 "Isaac"[0,3] # "Isa"
@@ -859,6 +857,31 @@ p 10 + 5
 **(Output) Saída**
 <pre>
 [:+, :+@]
+</pre>
+
+
+> esse método verifica se o objeto de número inteiro `10` é par
+
+**(Input) Entrada**
+```ruby
+p 10.even?
+```
+
+**(Output) Saída**
+<pre>
+true # verdadeiro
+</pre>
+
+> esse método verifica se o objeto de número inteiro `10` é ímpar
+
+**(Input) Entrada**
+```ruby
+p 10.odd?
+```
+
+**(Output) Saída**
+<pre>
+false # falso
 </pre>
 
 ----
