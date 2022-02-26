@@ -892,6 +892,9 @@ dicionario[:isaac]
 
 > Entretanto, toda vez que eu acessar esse Hash, ele está criando na memória. Portanto, é muito perfomático criar símbolos do que texto na memória toda vez.
 
+## Arrays (listas)
+Arrays ou listas são listas de valores separados por vírgula.
+
 
 
 ----
