@@ -793,7 +793,15 @@ Float
 </pre>
 
 ## `Int` - Inteiros
+**(Input) Entrada**
+```ruby
+puts 123_500
+```
 
+**(Output) Saída**
+<pre>
+123500
+</pre>
 
 ## `Float` - Flutuante
 
