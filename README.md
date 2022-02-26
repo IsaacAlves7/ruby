@@ -929,6 +929,14 @@ p lista
 [1, 2.7, "3", "isaac", true, "novo item 1", "novo item 2"]
 </pre>
 
+**Outros métodos para manipular Arrays**:
+```ruby
+lista.length # tamanho do array
+lista.empty? # verifica se o array está vazio
+lista.first # pegar o primeiro valor
+lista.last # pegar o último valor
+```
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
