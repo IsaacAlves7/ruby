@@ -902,9 +902,17 @@ lista = Array.new
 
 Os arrays no Ruby, assim como na maioria das linguagens de programação de alto-nível, podem ser de diferentes tipos.
 
+**(Input) Entrada**
 ```ruby
-lista = [1, 2.7, "3", true] # elementos do tipo int, float, string e boolean (TrueClass)
+lista = [1, 2.7, "3", "isaac", true] # elementos do tipo int, float, string e boolean (TrueClass)
+lista[1] # Acessando um item da lista no índice 1 = 2.7
+p lista[1]
 ```
+
+**(Output) Saída**
+<pre>
+2.7
+</pre>
 
 ----
 
