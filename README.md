@@ -61,7 +61,7 @@ Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de pro
 
 ## Hello, World! - Ruby
 ```ruby
-puts "Hello World!"
+puts "Hello World!" # mais comum
 puts ("Hello World!")
 p "Hello, World!"
 print "Hello, World!"
