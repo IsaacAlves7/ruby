@@ -886,7 +886,7 @@ false # falso
 
 ----
 
-# Paradigma de Programação Orientada a Objetos (POO) 
+# 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
 
 ----
 
