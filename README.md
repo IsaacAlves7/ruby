@@ -806,7 +806,7 @@ puts 123_500
 ## `Float` - Flutuante
 **(Input) Entrada**
 ```ruby
-# soma com inteiro e flutuante
+# soma um inteiro com um ponto flutuante
 soma = 3 + 4.77
 p soma
 ```
@@ -814,6 +814,20 @@ p soma
 **(Output) Saída**
 <pre>
 7.77
+</pre>
+----
+
+> Como tudo no Ruby é considerado um objeto, vamos enviar mensagem de um objeto com o método `send`. Esse método invoca outro método, com um argumento de operações.  
+
+**(Input) Entrada**
+```ruby
+# método send
+p 7.send("+", 7)
+```
+
+**(Output) Saída**
+<pre>
+14
 </pre>
 ----
 
