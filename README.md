@@ -830,7 +830,10 @@ variavel.object_id
 
 **(Output) Saída**
 <pre>
-
+"isaac"
+28420
+"isaac"
+35380
 </pre>
 
 > Toda vez que reutilizamos uma string, elas são imutáveis, ela vai gerar um novo objeto na memória. Então, toda vez que usar a string, o Ruby vai usar a memória do computador e vai referenciar ela, portanto vai ser criada várias posições na memória dependendo do uso.
