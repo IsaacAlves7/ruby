@@ -938,6 +938,20 @@ lista.last # pegar o último valor
 lista.include?(1) # verifica se algum item da lista inclui o valor específico
 ```
 
+**Somando listas com o Ruby**:
+**(Input) Entrada**
+```ruby
+lista_1 = [0, 1, 2, 3]
+lista_2 = [4, 5, 6, 7]
+resultado = lista_1 + lista_2
+p resultado
+```
+
+**(Output) Saída**
+<pre>
+[0, 1, 2, 3, 4, 5, 6, 7]
+</pre>
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
