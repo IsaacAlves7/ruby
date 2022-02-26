@@ -895,7 +895,16 @@ dicionario[:isaac]
 ## Arrays (listas)
 Arrays ou listas são listas de valores separados por vírgula.
 
+```ruby
+lista = []
+lista = Array.new
+```
 
+Os arrays no Ruby, assim como na maioria das linguagens de programação de alto-nível, podem ser de diferentes tipos.
+
+```ruby
+lista = [1, 2.7, "3", true] # elementos do tipo int, float, string e boolean (TrueClass)
+```
 
 ----
 
