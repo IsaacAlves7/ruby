@@ -929,7 +929,7 @@ p lista
 [1, 2.7, "3", "isaac", true, "novo item 1", "novo item 2"]
 </pre>
 
-**Outros métodos para manipular Arrays**:
+### Outros métodos para manipular Arrays
 ```ruby
 lista.length # tamanho do array
 lista.empty? # verifica se o array está vazio
@@ -939,6 +939,7 @@ lista.include?(1) # verifica se algum item da lista inclui o valor específico
 ```
 
 **Somando listas com o Ruby**:
+
 **(Input) Entrada**
 ```ruby
 lista_1 = [0, 1, 2, 3]
