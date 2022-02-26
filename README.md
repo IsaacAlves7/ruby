@@ -857,7 +857,6 @@ irb
 
 > Note que ele não muda o id do objeto, ou seja, toda vez ele vai gerar o mesmo objeto.
 
-
 **(Input) Entrada**
 ```ruby
 irb
@@ -870,6 +869,30 @@ irb
 3
 3
 </pre>
+
+### Dicionário
+
+**(Input) Entrada**
+```ruby
+irb
+dicionario = {}
+dicionario["isaac"] = "7"
+dicionario["isaac"]
+dicionario[:isaac] = "7"
+dicionario[:isaac]
+```
+
+**(Output) Saída**
+<pre>
+"7"
+"7"
+"7"
+"7"
+</pre>
+
+> Entretanto, toda vez que eu acessar esse Hash, ele está criando na memória. Portanto, é muito perfomático criar símbolos do que texto na memória toda vez.
+
+
 
 ----
 
