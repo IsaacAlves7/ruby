@@ -808,6 +808,7 @@ puts 123_500
 ```ruby
 # soma com inteiro e flutuante
 soma = 3 + 4.77
+p soma
 ```
 
 **(Output) Saída**
