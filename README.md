@@ -953,6 +953,9 @@ p resultado
 [0, 1, 2, 3, 4, 5, 6, 7]
 </pre>
 
+## Hashes
+Em algumas linguagens de programação o Hash é chamado de **HashMap** ou **dicionário**.
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
