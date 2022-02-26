@@ -843,12 +843,32 @@ variavel.object_id
 irb
 :"isaac"
 :isaac # posso fazer desse modo, sem especificar a string com aspas duplas
+:isaac.object_id
+:isaac.object_id
 ```
 
 **(Output) Saída**
 <pre>
 :isaac
 :isaac
+2290588
+2290588
+</pre>
+
+> Note que ele não muda o id do objeto, ou seja, toda vez ele vai gerar o mesmo objeto.
+
+
+**(Input) Entrada**
+```ruby
+irb
+1.send("+", 2) # o símbolo + está sendo usado na memória, não reutilizada
+1.send(:+, 2) # o símbolo + está sendo usado na memória, sendo reutilizado
+```
+
+**(Output) Saída**
+<pre>
+3
+3
 </pre>
 
 ----
