@@ -815,7 +815,6 @@ p soma
 <pre>
 7.77
 </pre>
-----
 
 > Como tudo no Ruby é considerado um objeto, vamos enviar mensagem de um objeto com o método `send`. Esse método invoca outro método, com um argumento de operações.  
 
@@ -829,6 +828,20 @@ p 7.send("+", 7)
 <pre>
 14
 </pre>
+
+> procurando métodos públicos (filtrando)
+
+**(Input) Entrada**
+```ruby
+irb
+7.public_methods.grep /\+/
+```
+
+**(Output) Saída**
+<pre>
+14
+</pre>
+
 ----
 
 # Paradigma de Programação Orientada a Objetos (POO) 
