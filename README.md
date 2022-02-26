@@ -914,6 +914,21 @@ p lista[1]
 2.7
 </pre>
 
+### Incluir um novo elemento na lista
+**(Input) Entrada**
+```ruby
+lista = [1, 2.7, "3", "isaac", true] # elementos do tipo int, float, string e boolean (TrueClass)
+lista << "novo item 1"
+# ou
+lista.append("novo item 2")
+p lista
+```
+
+**(Output) Saída**
+<pre>
+[1, 2.7, "3", "isaac", true, "novo item 1", "novo item 2"]
+</pre>
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
