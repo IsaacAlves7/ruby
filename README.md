@@ -817,6 +817,18 @@ p soma
 # Símbolos
 Os **símbolos** são tipos especiais de objeto que são criados com o `:` no início do identificador. Eles são únicos globalmente e imutáveis, então quando você utilizar um símbolo no Ruby ele vai usar aquele objeto na memória e vai usar o nome, `por exemplo `Isaac`, o Ruby vai usar esse objeto na memória a primeira vez e quando eu reutilizar esse símbolo ele vai reutilizar esse mesmo objeto.
 
+São ótimos substitutos para strings quando você for usado como label / chaves.
+
+**(Input) Entrada**
+```ruby
+irb
+
+```
+
+**(Output) Saída**
+<pre>
+</pre>
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
