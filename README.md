@@ -935,6 +935,7 @@ lista.length # tamanho do array
 lista.empty? # verifica se o array está vazio
 lista.first # pegar o primeiro valor
 lista.last # pegar o último valor
+lista.include?(1) # verifica se algum item da lista inclui o valor específico
 ```
 
 ----
