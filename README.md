@@ -1006,7 +1006,23 @@ gets
 **Sintaxe**
 ```ruby
 nome = gets
+nome
+puts nome
+nome.chomp() # Tira o último caractere social, no caso, o \n
+# ou
+nome = nome.chomp
+# ou
+nome = gets.chomp
 ```
+
+### Colocando prompt
+```ruby
+puts "Digite o seu nome: "
+nome = gets
+puts "Seu nome é #(nome)"
+```
+
+## Estruturas Condicionais
 
 ----
 
