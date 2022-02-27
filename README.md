@@ -971,6 +971,14 @@ hash = {
 }
 ```
 
+> Um hash pode ser qualquer tipo primitivo de dados, pode ser um número, uma string ou um símbolo.
+
+```ruby
+h = { "nome" => "Isaac", "idade" => 21 } # Strings e números
+h = { :nome => "Isaac", :idade => 21 } # Símbolos
+```
+
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
