@@ -974,14 +974,15 @@ hash = {
 > Um hash pode ser qualquer tipo primitivo de dados, pode ser um número, uma string ou um símbolo.
 
 ```ruby
-i = {}
-h = {}
+i = {} # hash i vazio
+h = {} # hash h vazio
 i.class
 a.class
 i = { "nome" => "Isaac", "idade" => 21 } # Strings e números
 h = { :nome => "Isaac", :idade => 21 } # Símbolos
 h[:nome] # acessando um hash
 h[:nome] = "Novo nome" # Alterando um hash
+h[77] = "New value" # Adicionando um novo item no hash
 ```
 
 > Ao acessar o hash, note que é bem parecido com array, porém nele você está acessando o índice pelo próprio nome dele.
@@ -991,6 +992,15 @@ h[:nome] = "Novo nome" # Alterando um hash
 hash.keys # retorna um array com as chaves
 hash.values # retorna um array com os valores
 hash.empty? # verifica se o hash está vazio
+```
+
+## Entrada de dados
+Como faz para capturar um input da tela padrão do computador, existe um método chamado `gets`, ele possibilita fazer um prompt da entrada padrão. Assim, que a gente entrar um valor na entrada padrão, esse valor vai ser acessado pra que a gente consiga acessa-lo depois.
+
+```ruby
+gets()
+# ou
+gets
 ```
 
 ----
