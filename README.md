@@ -1023,7 +1023,7 @@ puts "Seu nome é #(nome)"
 ```
 
 ## Estruturas Condicionais
-
+## Laços de Repetição
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
