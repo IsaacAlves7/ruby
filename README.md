@@ -974,9 +974,12 @@ hash = {
 > Um hash pode ser qualquer tipo primitivo de dados, pode ser um número, uma string ou um símbolo.
 
 ```ruby
-h = { "nome" => "Isaac", "idade" => 21 } # Strings e números
+i = { "nome" => "Isaac", "idade" => 21 } # Strings e números
 h = { :nome => "Isaac", :idade => 21 } # Símbolos
+h[:nome] # acessando um hash
 ```
+
+> Ao acessar o hash, note que é bem parecido com array, porém nele você está acessando o índice pelo próprio nome dele.
 
 
 ----
