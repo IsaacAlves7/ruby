@@ -1003,6 +1003,11 @@ gets()
 gets
 ```
 
+**Sintaxe**
+```ruby
+nome = gets
+```
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
