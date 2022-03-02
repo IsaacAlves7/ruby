@@ -1042,6 +1042,15 @@ end
 <= # menor ou igual a 
 ```
 
+### Estrutura condicional com operadores relacionais
+```ruby
+valor = 20
+if valor > 50
+  puts "Eu sou maior que 50"
+else
+  puts "Eu sou menor que 50"
+end
+```
 
 
 ## Laços de Repetição
