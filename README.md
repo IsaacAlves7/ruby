@@ -1060,7 +1060,7 @@ else
 end
 ```
 
-## Estrutura condicional com operadores relacionais `&&` lógicos
+### Estrutura condicional com operadores relacionais `&&` lógicos
 ```ruby
 ```
 
