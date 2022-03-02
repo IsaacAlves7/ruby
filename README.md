@@ -1138,12 +1138,13 @@ end
 ```
 
 **Saída (Output)**:
-```ruby
+
+<pre>
 50
 Integer
 50
 Esse valor é maior que 20
-```
+</pre>
 
 ## Laços de Repetição
 ## Métodos
