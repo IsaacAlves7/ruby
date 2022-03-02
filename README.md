@@ -1031,6 +1031,19 @@ else
   faca_outra_coisa
 end
 ```
+
+### Operadores relacionais
+```ruby
+== # igualdade
+!= # diferente
+> # maior que
+>= # maior ou igual a 
+< # menor que
+<= # menor ou igual a 
+```
+
+
+
 ## Laços de Repetição
 ## Métodos
 ## Atribuição condicional de variável
