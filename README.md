@@ -1026,6 +1026,8 @@ puts "Seu nome é #(nome)"
 ## Laços de Repetição
 ## Métodos
 ## Atribuição condicional de variável
+## Exercício: Verificando se a palavra passe é um palíndromo
+
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
