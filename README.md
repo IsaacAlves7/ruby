@@ -1075,7 +1075,7 @@ if valor > 50
   puts "Eu sou maior que 50"
 elsif valor == 50
   puts "Eu sou igual a 50"
-else
+else # nesse caso, o else sempre vem por último, depois do elsif
   puts "Eu sou menor que 50"
 end
 ```
@@ -1134,6 +1134,10 @@ p valor
 
 if valor > 20
   puts "Esse valor é maior que 20"
+elsif valor == 20
+  puts "Esse valor é igual a 20"
+else
+  puts "Esse valor é menor que 20"
 end
 ```
 
@@ -1144,6 +1148,25 @@ end
 Integer
 50
 Esse valor é maior que 20
+</pre>
+
+
+### Exemplo estrutura de condicional:
+**Entrada (Input)**:
+```ruby
+puts "Digitar um valor: "
+valor = gets.chomp.to_i
+
+if valor >= 50 && valor <= 100
+  puts "Estou entre 50 e 100"
+else
+  puts "Eu não estou entre 50 e 100"
+end
+```
+
+**Saída (Output)**:
+
+<pre>
 </pre>
 
 ## Laços de Repetição
