@@ -1024,6 +1024,8 @@ puts "Seu nome é #(nome)"
 
 ## Estruturas Condicionais
 ## Laços de Repetição
+## Métodos
+## Atribuição condicional de variável
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
