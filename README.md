@@ -1023,6 +1023,14 @@ puts "Seu nome é #(nome)"
 ```
 
 ## Estruturas Condicionais
+### Sintaxe
+```ruby
+if condicao 
+  faca_algo
+else
+  faca_outra_coisa
+end
+```
 ## Laços de Repetição
 ## Métodos
 ## Atribuição condicional de variável
