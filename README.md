@@ -1068,6 +1068,21 @@ if valor >= 50 && valor <= 100
 end
 ```
 
+
+### Estrutura condicional com `elsif` (senão se)
+```ruby
+valor = 20
+if valor > 50
+  puts "Eu sou maior que 50"
+elsif valor == 50
+  puts "Eu sou igual a 50"
+else
+  puts "Eu sou menor que 50"
+end
+```
+
+> Apenas `nil` e `false` são avaliados como **falso**, se por acaso tiver um parênteses vazio será do valor lógico **true**.
+
 ## Laços de Repetição
 ## Métodos
 ## Atribuição condicional de variável
@@ -1086,12 +1101,12 @@ end
 
 ----
 
-# 💎 MVC padrão 🎛️
+# 💎 MVC Arquitetura Padrão 🎛️
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png"></div>
 
 ----
 
-# 💎 Gems 💎
+# 💎 Ruby Gems 💎
 <div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
 São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio RubyOnRails. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
