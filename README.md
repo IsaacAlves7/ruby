@@ -1068,7 +1068,6 @@ if valor >= 50 && valor <= 100
 end
 ```
 
-
 ### Estrutura condicional com `elsif` (senão se)
 ```ruby
 valor = 20
@@ -1082,6 +1081,36 @@ end
 ```
 
 > Apenas `nil` e `false` são avaliados como **falso**, se por acaso tiver um parênteses vazio será do valor lógico **true**.
+
+
+### Estrutura condicional com uma linha de condição
+```ruby
+valor = 20
+puts "Eu sou maior que 50" if valor > 50 
+```
+
+### `unless`
+> Se a condição não for verdadeira, ele iá executar o bloco de código dentro dela (faca_isso).
+
+**Sintaxe**:
+```ruby
+unless condicao
+  faca_isso
+end
+```
+
+### Operador ternário
+
+> Usado para estruturas condicionais de pequeno porte.
+
+```ruby
+valor > 50 ? puts "Eu sou maior que 50" : puts "Eu sou menor que 50"
+# if valor > 50
+#   puts "Eu sou maior que 50"
+# else
+#   puts "Eu sou menor que 50"
+```
+
 
 ## Laços de Repetição
 ## Métodos
