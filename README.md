@@ -1042,6 +1042,14 @@ end
 <= # menor ou igual a 
 ```
 
+
+### Operadores lógicos
+```ruby
+! # Negação
+&& # And
+|| # Or 
+```
+
 ### Estrutura condicional com operadores relacionais
 ```ruby
 valor = 20
