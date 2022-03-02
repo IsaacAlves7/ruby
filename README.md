@@ -1100,7 +1100,6 @@ end
 ```
 
 ### Operador ternário
-
 > Usado para estruturas condicionais de pequeno porte.
 
 ```ruby
@@ -1111,6 +1110,40 @@ valor > 50 ? puts "Eu sou maior que 50" : puts "Eu sou menor que 50"
 #   puts "Eu sou menor que 50"
 ```
 
+### Switch case
+```ruby
+linguagem = "ruby"
+case linguagem
+when "ruby"
+  puts "bem vindo ao curso de ruby"
+when "golang"
+  puts "curso não disponível"
+else
+  puts "não conheço essa linguagem"
+end
+```
+
+### Exemplo estrutura de condicional:
+**Entrada (Input)**:
+```ruby
+valor gets.chomp.to_i # conversor para inteiro
+
+p valor.class # String
+
+p valor
+
+if valor > 20
+  puts "Esse valor é maior que 20"
+end
+```
+
+**Saída (Output)**:
+```ruby
+50
+Integer
+50
+Esse valor é maior que 20
+```
 
 ## Laços de Repetição
 ## Métodos
