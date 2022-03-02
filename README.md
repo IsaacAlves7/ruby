@@ -1060,6 +1060,9 @@ else
 end
 ```
 
+## Estrutura condicional com operadores relacionais `&&` lógicos
+```ruby
+```
 
 ## Laços de Repetição
 ## Métodos
