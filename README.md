@@ -1265,7 +1265,7 @@ end
 Funciona semelhante ao `while`, porém você declara uma variável em uma lista de objetos.
 
 ```ruby
-for i in [1, 2, 3, 4, 5] # para i em algum array, hash ou objeto que corresponde ao .it
+for i in [1, 2, 3, 4, 5] # para i em algum array, hash ou objeto que corresponde ao `.each`
   puts "O número é #{i}"
 end
 ```
@@ -1403,6 +1403,50 @@ for meu_valor in 0..7
   puts "Meu valor é #{meu_valor}"
 end
 ```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+</pre>
+
+### Exemplo 2: For para Arrays
+**Entrada (Input)**:
+```ruby
+lista = [0,1,2,3,4,5,6,7]
+for meu_valor in lista
+  puts "Meu valor é #{meu_valor}"
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+</pre>
+
+### Exemplo 2: Each
+**Entrada (Input)**:
+```ruby
+lista = [0,1,2,3,4,5,6,7]
+lista.each do |meu_valor|
+  puts "O valor é #{meu_valor}"
+end
+```
+
+> Em JavaScript, podemos fazer algo parecido com o comando `for each`.
 
 **Saída (Output)**:
 <pre>
