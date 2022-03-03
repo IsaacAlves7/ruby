@@ -1229,6 +1229,7 @@ Os laços ou loops, são formas de executar repetitivamente uma operação a fim
 ### `While`
 O `while` significa **repetir enquanto a condição for verdadeira**. 
 
+**Entrada (Input)**
 ```ruby
 valor = 5
 while valor > 0
@@ -1236,6 +1237,15 @@ while valor > 0
   valor = valor - 1
 end
 ```
+
+**Saída (Output)**
+<pre>
+5
+4
+3
+2
+1
+</pre>
 
 ## Métodos (Methods)
 
