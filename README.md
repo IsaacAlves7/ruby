@@ -1232,10 +1232,10 @@ O `while` significa **repetir enquanto a condição for verdadeira**.
 **Entrada (Input)**
 ```ruby
 valor = 5
-while valor > 0
+while valor > 0 # true
   puts valor
-  valor = valor - 1
-end
+  valor = valor - 1 # Outra forma: valor -= 1
+end # quando parar em 0, irá retornar em `false`, a execução será encerrada
 ```
 
 **Saída (Output)**
