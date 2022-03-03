@@ -1489,6 +1489,19 @@ end
 
 > a palavra `return` é opcional. O ruby sempre retorna o resultado da execução da última linha.
 
+**Exemplo**:
+```ruby
+def soma (a, b)
+  return a + b
+end
+
+# é igual
+
+def soma(a, b)
+  a + b
+end
+```
+
 ## Atribuição condicional de variável (Attributes)
 
 ## Exercício: Verificando se a palavra passe é um palíndromo
