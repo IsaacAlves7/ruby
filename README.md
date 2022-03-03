@@ -1460,6 +1460,20 @@ O valor é 6
 O valor é 7
 </pre>
 
+### Exemplo 2: Each com hash
+**Entrada (Input)**:
+```ruby
+hash = {nome: Isaac, idade: 21}
+lista.each do |chave, valor|
+  puts "Meu nome é #{chave} e tenho #{valor} anos"
+end
+```
+
+**Saída (Output)**:
+<pre>
+Meu nome é Isaac e tenho 21 anos
+</pre>
+
 ## Métodos (Methods)
 
 ## Atribuição condicional de variável (Attributes)
