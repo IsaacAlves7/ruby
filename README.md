@@ -1475,6 +1475,13 @@ Meu nome é Isaac e tenho 21 anos
 </pre>
 
 ## Métodos (Methods)
+```ruby
+def meu_metodo
+  puts "meu_metodo foi executado"
+end
+```
+
+
 
 ## Atribuição condicional de variável (Attributes)
 
