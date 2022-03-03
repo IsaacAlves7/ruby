@@ -1481,7 +1481,11 @@ def meu_metodo
 end
 ```
 
-
+```ruby
+def meu_metodo(parametro1, parametro2)
+  puts "meu_metodo foi executado com #{parametro1} e #{parametro2}"
+end
+```
 
 ## Atribuição condicional de variável (Attributes)
 
