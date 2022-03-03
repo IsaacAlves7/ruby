@@ -1231,7 +1231,7 @@ O `while` significa **repetir enquanto a condição for verdadeira**.
 
 **Entrada (Input)**
 ```ruby
-valor = 5
+valor = 5 # imprimindo de 5 até 1
 while valor > 0 # true
   puts valor
   valor = valor - 1 # Outra forma: valor -= 1
@@ -1287,6 +1287,134 @@ break # sair do laço
 return # sair do laço e do método onde o laço está contido
 next # vai imediatamente para a próxima iteração
 redo # repete o laço do início (a condição não será reavaliada)
+```
+
+### Exemplo 1: Imprimir de 0 até 9
+**Entrada (Input)**:
+```ruby
+valor = 0
+while (valor < 10)
+  puts "O valor é #{valor}"
+  valor += 1
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+O valor é 8
+O valor é 9
+</pre>
+
+### Exemplo 1: Imprimir de 0 até 5
+**Entrada (Input)**:
+```ruby
+valor = 0
+while (valor < 10)
+  puts "O valor é #{valor}"
+  break if valor == 5
+  valor += 1
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+</pre>
+
+### Exemplo 1: Imprimir de 0 até 5
+**Entrada (Input)**:
+```ruby
+valor = 0
+while (valor < 10)
+  puts "O valor é #{valor}"
+  break if valor == 5
+  valor += 1
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+</pre>
+
+### Exemplo 2: For
+**Entrada (Input)**:
+```ruby
+for meu_valor in [0,1,2,3,4,5,6,7]
+  puts "Meu valor é #{meu_valor}"
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+</pre>
+
+### Exemplo 2: Range For
+**Entrada (Input)**:
+```ruby
+range = 0..7
+for meu_valor in range
+  puts "Meu valor é #{meu_valor}"
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+</pre>
+
+### Exemplo 2: For Range
+**Entrada (Input)**:
+```ruby
+for meu_valor in 0..7
+  puts "Meu valor é #{meu_valor}"
+end
+```
+
+**Saída (Output)**:
+<pre>
+O valor é 0
+O valor é 1
+O valor é 2
+O valor é 3
+O valor é 4
+O valor é 5
+O valor é 6
+O valor é 7
+</pre>
 
 ## Métodos (Methods)
 
