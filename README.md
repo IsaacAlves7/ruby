@@ -1150,7 +1150,6 @@ Integer
 Esse valor é maior que 20
 </pre>
 
-
 ### Exemplo estrutura de condicional:
 **Entrada (Input)**:
 ```ruby
@@ -1167,6 +1166,61 @@ end
 **Saída (Output)**:
 
 <pre>
+
+</pre>
+
+
+### Exemplo 2 - estrutura de condicional:
+**Entrada (Input)**:
+```ruby
+valor = ""
+if valor 
+  puts "Eu tenho alguma coisa" # true = vazio
+else
+  puts "Eu não tenho nada"
+end
+```
+
+**Saída (Output)**:
+
+<pre>
+Eu tenho alguma coisa
+</pre>
+
+> O resultado se torna verdadeiro devido ao tipo do código inserido, para ele declarar falso, é preciso especificar uma negação na primeira condição
+
+**Entrada (Input)**:
+```ruby
+valor = ""
+if !valor.empty? # se valor não é vazio
+  puts "Eu tenho alguma coisa" # true = vazio
+else
+  puts "Eu não tenho nada"
+end
+```
+
+**Saída (Output)**:
+
+<pre>
+Eu não tenho nada
+</pre>
+
+> O mesmo pode ser feito com `unless`
+
+**Entrada (Input)**:
+```ruby
+valor = ""
+unless valor # se valor não é vazio
+  puts "Eu tenho alguma coisa"
+else
+  puts "Eu não tenho nada"
+end
+```
+
+**Saída (Output)**:
+
+<pre>
+Eu não tenho nada
 </pre>
 
 ## Laços de Repetição
