@@ -1487,6 +1487,8 @@ def meu_metodo(parametro1, parametro2)
 end
 ```
 
+> a palavra `return` é opcional. O ruby sempre retorna o resultado da execução da última linha.
+
 ## Atribuição condicional de variável (Attributes)
 
 ## Exercício: Verificando se a palavra passe é um palíndromo
