@@ -1223,9 +1223,24 @@ end
 Eu não tenho nada
 </pre>
 
-## Laços de Repetição
-## Métodos
-## Atribuição condicional de variável
+## Laços de Repetição (Loops)
+Os laços ou loops, são formas de executar repetitivamente uma operação a fim de obedecer a uma estrutura condicional.
+
+### `While`
+O `while` significa **repetir enquanto a condição for verdadeira**. 
+
+```ruby
+valor = 5
+while valor > 0
+  puts valor
+  valor = valor - 1
+end
+```
+
+## Métodos (Methods)
+
+## Atribuição condicional de variável (Attributes)
+
 ## Exercício: Verificando se a palavra passe é um palíndromo
 
 ----
