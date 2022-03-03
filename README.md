@@ -1281,6 +1281,13 @@ until valor == 10
 end  
 ```
 
+### Alguns comandos usados em laços
+```ruby
+break # sair do laço
+return # sair do laço e do método onde o laço está contido
+next # vai imediatamente para a próxima iteração
+redo # repete o laço do início (a condição não será reavaliada)
+
 ## Métodos (Methods)
 
 ## Atribuição condicional de variável (Attributes)
