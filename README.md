@@ -1247,6 +1247,20 @@ end
 1
 </pre>
 
+**Entrada (Input)**
+```ruby
+valor = 5
+while valor > 0
+  puts valor
+  valor = valor - 0
+end
+```
+
+**Saída (Output)**
+<pre>
+`looping infinito do valor`
+</pre>
+
 ## Métodos (Methods)
 
 ## Atribuição condicional de variável (Attributes)
