@@ -1262,10 +1262,23 @@ end
 </pre>
 
 ### `For`
+Funciona semelhante ao `while`, porém você declara uma variável em uma lista de objetos.
+
 ```ruby
-for i in [1, 2, 3, 4, 5]
+for i in [1, 2, 3, 4, 5] # para i em algum array, hash ou objeto que corresponde ao .it
   puts "O número é #{i}"
 end
+```
+
+### `Until`
+Semelhante ao `while`, a diferença está na condição, que assim quando executar a condição for falsa.
+
+```ruby
+valor = 0
+until valor == 10
+  puts valor
+  valor += 1
+end  
 ```
 
 ## Métodos (Methods)
