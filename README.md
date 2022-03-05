@@ -1503,22 +1503,24 @@ end
 ```
 
 **Exemplo 2**:
+**Entrada (Input)**:
 ```ruby
-def soma (valor1, valor2 = 0)
+def soma (valor1, valor2 = 0) # valor1 = 10 e valor2 = 0
   puts "Estou somando #{valor1} e #{valor2}"
   valor1 + valor2
 end
 
-def soma_com_parametros_nomeados(valor1:, valor2:)
-  soma(valor1, valor2)
-end
-
 puts "Vou executar a soma"
-puts soma(10, 5)
-puts soma_com_parametros_nomeados(valor2: 10, valor1: 5)
+puts soma(10) # valor1
 ```
 
+**Saída (Output)**:
 
+<pre>
+Vou executar a soma
+Estou somando 10 e 0
+10
+</pre>
 
 ## Atribuição condicional de variável (Attributes)
 
