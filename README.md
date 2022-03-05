@@ -1549,8 +1549,61 @@ Estou somando 5 e 0
 </pre>
 
 ## Atribuição condicional de variável (Attributes)
+```ruby
+variavel = nil
+variavel = "Algum valor" if variavel.nil?
+```
 
-## Exercício: Verificando se a palavra passe é um palíndromo
+```ruby
+variavel = nil
+variavel = "Algum valor" unless variavel
+```
+
+```ruby
+variavel ||= "Valor"
+```
+
+**Exemplo**:
+```ruby
+variavel = 10
+variavel ||= 20
+variavel
+variavel = nil
+variavel
+variavel ||= 20
+variavel
+nova_variavel ||= 100
+nova_variavel
+```
+
+## Exercício 01: Análise de Palíndromo
+<div align="center"><img src="https://c.tadst.com/gfx/1200x630/palindrome-bob.png?1"></div>
+
+> **Palíndromo**: São palavras que são iguais quando lidas de frente para trás e de trás para frente.
+
+**Exemplos**:
+
+<pre>
+Ovo
+Osso
+Radar
+Pop
+Bob
+...
+</pre>
+
+> **Objetivo**: 
+> - Definir um método que verifica se é palíndromo
+> - Usar gets para pedir input de dados e chamar o método
+> - Imprimir se é palíndromo ou não
+
+**Resolução**:
+
+**Entrada (Input)**
+```ruby
+
+```
+
 
 ----
 
