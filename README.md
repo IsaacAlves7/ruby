@@ -1530,7 +1530,7 @@ puts soma_com_parametros_nomeados(valor2: 10, valor1: 5)
 
 ----
 
-# 🚊 Rails 🚊
+# 🛤️ Rails 🛤️
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
 
 É um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, empresa do DHH, cujo era um software de gerenciamento de tarefas.
@@ -1549,7 +1549,7 @@ São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. 
 
 ----
 
-# 💎 ROR - RubyOnRails 🚊
+# 💎 ROR - RubyOnRails 🛤️
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="277"></a></div><br \>
 
 ----
