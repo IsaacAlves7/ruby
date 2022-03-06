@@ -1601,9 +1601,29 @@ Bob
 
 **Entrada (Input)**
 ```ruby
+puts "Digite alguma palavra ou número:"
+palavra = gets.chomp
+def palindromo?(palavra)
+    palavra.downcase == palavra.downcase.reverse
+end
 
+puts palindromo?(palavra)
 ```
 
+**Saída (Output)**
+<pre>
+Digite alguma palavra ou número:
+Isaac
+false
+
+Digite alguma palavra ou número:
+Pop
+true
+
+Digite alguma palavra ou número:
+7
+true
+</pre>
 
 ----
 
