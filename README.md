@@ -1628,11 +1628,12 @@ true
 ----
 
 # 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" width="277"></a></div><br \>
 
 ----
 
 # 🛤️ Rails 🛤️
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://seeklogo.com/images/R/rails-logo-499E963652-seeklogo.com.png" width="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" width="277"></a></div><br \>
 
 É um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
