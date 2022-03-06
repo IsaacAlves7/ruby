@@ -1627,8 +1627,23 @@ true
 
 ----
 
-# 💎 Paradigma de Programação Orientada a Objetos (POO) ⚽
+# 💎 Paradigma de Programação Orientada a Objetos em Ruby (Poo Ruby) ⚽
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" width="277"></a></div><br \>
+
+Agora, iremos aprender sobre o paradigma orientado a objetos em Ruby, se você tiver o mesmo conhecimento em teorias e lógicas sobre este paradigma é bem mais fácil, basta somente usar com a semântica do Ruby.
+
+## A diferença entre Classes x Objetos
+![Classes e Objetos - Poo](https://user-images.githubusercontent.com/61624336/156935818-8e6ee659-f443-4afc-afbc-8e89c51b0715.png)
+
+Na imagem acima, conseguimos ter uma boa ideia do que seria uma classe e objetos. A **classe**, ou _class_, é como se fosse uma **planta** ou **esboço** de um objeto ou partes de um objeto. 
+
+Um **objeto**, ou _object_, é a construção daquela classe (planta ou esboço), portanto, chamamos essa construção de **instância**.
+
+**Sintaxe para classe**:
+```ruby
+class ClassName
+end
+```
 
 ----
 
