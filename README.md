@@ -4,6 +4,8 @@
 
 <blockquote>I created this repository for my Ruby Full-Stack development learning.</blockquote>
 
+- https://egghead.io/blog/rails-graphql-typescript-react-apollo
+
 # 🎒 Prerequisites and repositories 📚
 <ul>
   <li>Good domains in English;</li>
