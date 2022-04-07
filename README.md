@@ -19,6 +19,12 @@
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="277"></a></div>
 
+[![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+[![.RB](https://img.shields.io/badge/-class.rb-fff?style=social&logo=Ruby&logoColor=CC342D)](#)
+[![Rails](https://img.shields.io/badge/-script.rb-fff?style=social&logo=RubyOnRails&logoColor=CC0000)](#)
+[![RubyGems](https://img.shields.io/badge/-script.rb-fff?style=social&logo=RubyGems&logoColor=E9573F)](#)
+
+
 ----
 
 # 🐒 Paradigmas de desenvolvimento de software 🧒
