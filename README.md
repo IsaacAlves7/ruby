@@ -22,7 +22,7 @@
 [![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 [![.RAKE](https://img.shields.io/badge/-script.rake-fff?style=social&logo=Ruby&logoColor=CC342D)](#)
 [![Rails](https://img.shields.io/badge/-script.rb-fff?style=social&logo=RubyOnRails&logoColor=CC0000)](#)
-[![RubyGems](https://img.shields.io/badge/-script.rb-fff?style=social&logo=RubyGems&logoColor=E9573F)](#)
+[![RubyGems](https://img.shields.io/badge/-Gemfile-fff?style=social&logo=RubyGems&logoColor=E9573F)](#)
 
 
 ----
