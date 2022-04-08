@@ -1663,7 +1663,10 @@ end
 É um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
 ```sh
-rails new <nome-do-projeto>
+mkdir ror-test
+rails new ror-test
+gem install bundler
+rails server
 ```
 
 ----
