@@ -80,7 +80,7 @@ printf "Hello, World!"
 
 ----
 
-# 🗃️ Gerenciadores de versões - Ambiente de desenvolvimento 🗃️
+# 🗃️ Gerenciadores de versões - Ambiente de desenvolvimento
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" width="277"></a></div><br \>
 
 O **gerenciamento de versão** se refere ao processo de planejamento, desenvolvimento, agendamento, testes, implantação e controle de versões de software. Ele garante que as equipes de versão entreguem com eficiência os aplicativos e os upgrades exigidos pelas empresas e preservem, ao mesmo tempo, a integridade do ambiente de produção existente.
