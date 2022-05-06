@@ -6,7 +6,7 @@
 
 - https://egghead.io/blog/rails-graphql-typescript-react-apollo
 
-# 🎒 Prerequisites and repositories 📚
+## Prerequisites and repositories:
 <ul>
   <li>Good domains in English;</li>
   <li>Front-End: HTML5, CSS3, JS and Frameworks;</li>
