@@ -1691,8 +1691,6 @@ São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. 
 # 💎 Pratical Project: (CRUD) React.js + RubyOnRails ⚛️
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg"></a></div><br \>
 
----
-
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
 | :---: |
