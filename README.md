@@ -403,7 +403,7 @@ puts mensagem
 
 **(Input) Entrada:**
 ```ruby
-ruby main.rb
+ruby mensagem.rb
 ```
 
 **(Output) Saída:**
@@ -427,7 +427,7 @@ puts mensagemErrada
 
 **(Input) Entrada:**
 ```ruby
-ruby main.rb
+ruby mensagem.rb
 ```
 
 **(Output) Saída:**
@@ -448,7 +448,7 @@ puts mensagem
 
 **(Input) Entrada:**
 ```ruby
-ruby main.rb
+ruby mensagem.rb
 ```
 
 **(Output) Saída:**
@@ -469,7 +469,7 @@ puts mensagem
 
 **(Input) Entrada:**
 ```ruby
-ruby main.rb
+ruby public-methods.rb
 ```
 
 **(Output) Saída:**
@@ -672,7 +672,7 @@ puts "O tamanho da minha string é: #{mensagem.length()}"
 
 **(Input) Entrada:**
 ```ruby
-ruby main.rb
+ruby mensagem.rb
 ```
 
 **(Output) Saída:**
