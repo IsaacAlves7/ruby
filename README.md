@@ -42,7 +42,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ----
 
-# 💎 Linguagem Ruby 💎
+# 💎 Linguagem Ruby
 <div align="center"><a href="https://www.ruby-lang.org/pt/"><img src="https://a.storyblok.com/f/42908/256x256/a3b8b23d35/ruby1.png"></a></div><br \>
 
 O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão. É uma linguagem de programação interpretada e multi-paradigma com foco em simplicidade. Possui uma popularidade em 2001 após o livro "Programming Ruby".
