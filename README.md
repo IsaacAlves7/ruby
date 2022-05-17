@@ -6,17 +6,6 @@
 
 - https://egghead.io/blog/rails-graphql-typescript-react-apollo
 
-## Prerequisites and repositories:
-<ul>
-  <li>Good domains in English;</li>
-  <li>Front-End: HTML5, CSS3, JS and Frameworks;</li>
-  <li>Relational Databases and SQL language;</li>
-  <li>HTTP methods and APIs;</li>
-  <li>Programming logic and paradigms;</li>
-  <li>Desire to learn.</li>
-</ul>
-<blockquote>⚠️ <b>WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in Ruby development</blockquote>
-
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="277"></a></div>
 
 [![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
