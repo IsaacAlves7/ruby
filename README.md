@@ -26,9 +26,6 @@
 [![Rails](https://img.shields.io/badge/-controller-fff?style=social&logo=RubyOnRails&logoColor=CC0000)](#)
 [![RubyGems](https://img.shields.io/badge/-Gemfile-fff?style=social&logo=RubyGems&logoColor=E9573F)](#)
 
-
-----
-
 # 🐒 Paradigmas de desenvolvimento de software
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
