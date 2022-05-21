@@ -54,8 +54,8 @@ class Hello
 
 Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de programação Python.
 
+# 💎 Hello, World! - Ruby
 [![HelloWorld.RB](https://img.shields.io/badge/-HelloWorld.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
-## Hello, World! - Ruby
 ```ruby
 puts "Hello World!" # mais comum
 puts ("Hello World!")
