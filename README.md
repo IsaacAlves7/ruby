@@ -134,19 +134,19 @@ rails server
 ----
 
 # ♻️ Arquitetura MVC Padrão
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/155210955-edb66dfb-61e8-49c0-b1a6-dcf649dba02f.png" height="377"></div>
 
 ----
 
 # 💎 Ruby Gems
-<div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
+<div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" height="177"></a></div><br \>
 
 São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio RubyOnRails. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
 
 ----
 
 # 💎 ROR - RubyOnRails
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="177"></a></div><br \>
 
 ----
 
