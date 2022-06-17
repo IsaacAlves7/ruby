@@ -26,7 +26,7 @@ O **Ruby** foi uma linguagem de programação criada em 1995 por Matz, no Japão
 
 É uma linguagem **dinâmica**, **open source**, com foco na simplicidade e na **produtividade**. Tem uma sintaxe elegante de leitura natural e fácil escrita. Além disso, tudo no Ruby é tratado como **objeto** da mesma forma como é na linguagem JavaScript, diferente da linguagem Java e C# que possui classes, métodos e atributos.
   
-[![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+[![.RB](https://img.shields.io/badge/-Hello.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 ~~~ruby
 class Hello
   def initialize (nome):
