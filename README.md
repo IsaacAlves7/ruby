@@ -119,8 +119,8 @@ Hello, World!
 
 ----
 
-# 🛤️ Rails 🛤️
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" width="277"></a></div><br \>
+# 🛤️ Rails
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177"></a></div><br \>
 
 É um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
@@ -138,19 +138,19 @@ rails server
 
 ----
 
-# 💎 Ruby Gems 💎
+# 💎 Ruby Gems
 <div align="center"><a href="https://rubygems.org/?locale=pt-BR"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" width="277"></a></div><br \>
 
 São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio RubyOnRails. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
 
 ----
 
-# 💎 ROR - RubyOnRails 🛤️
+# 💎 ROR - RubyOnRails
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="277"></a></div><br \>
 
 ----
 
-# 💎 Pratical Project: (CRUD) React.js + RubyOnRails ⚛️
+# 💎 Pratical Project: (CRUD) React.js + RubyOnRails
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.ytimg.com/vi/oyjzi837wME/maxresdefault.jpg"></a></div><br \>
 
 ## Autor
