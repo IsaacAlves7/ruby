@@ -1,4 +1,4 @@
-# Herança em Ruby (POO Ruby)
+# Herança (POO Ruby)
 
 class Sensor
   def instalar
