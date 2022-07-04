@@ -4,9 +4,6 @@
 
 <blockquote>I created this repository for my Ruby Full-Stack development learning.</blockquote>
 
-- https://egghead.io/blog/rails-graphql-typescript-react-apollo
-- https://rubyonjets.com/
-
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="277"></a></div>
 
 # 🐒 Paradigmas de desenvolvimento de software
