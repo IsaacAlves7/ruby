@@ -2752,6 +2752,11 @@ rails server
 # rails s
 ```
 
+### Comando para desfazer o CRUD
+```sh
+rails db:rollback
+```
+
 </details>
 
 ## Autor
