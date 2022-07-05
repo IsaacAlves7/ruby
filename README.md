@@ -2750,8 +2750,7 @@ rails new ror-test
 cd ror-test
 bundle update
 bundle install
-rails server
-# rails s
+rails server # rails s
 ```
 
 ### Comando para desfazer o CRUD
