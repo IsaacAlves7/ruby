@@ -2753,6 +2753,8 @@ rails server
 ```
 
 ### Comando para desfazer o CRUD
+O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
+
 ```sh
 rails db:rollback
 ```
