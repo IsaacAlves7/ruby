@@ -2761,6 +2761,13 @@ O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com is
 rails db:rollback
 ```
 
+### Comando para deletar o scaffold
+O comando abaixa deleta tudo relacionado ao scaffold criado.
+
+```sh
+rails d scaffold Product
+```
+
 </details>
 
 ## Autor
