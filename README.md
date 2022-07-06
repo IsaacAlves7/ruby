@@ -2777,6 +2777,11 @@ rails d scaffold Product
 # Controller
 Um **controller** é simplesmente uma classe que é definida para herdar do ApplicationController. É dentro dessa classe que você vai definir as ações por este controller. Aquelas ações vão performar as operações do CRUD nos posts.
 
+### Gerando um model com Rails
+```sh
+rails generate model Post title:string body:text
+```
+
 </details>
 
 ## Autor
