@@ -2382,6 +2382,8 @@ Existem 3 tipos de acessibilidade de métodos no Ruby:
 - `private` só podem ser chamados dentro de sua própria instância. Não é possível acessar Métodos privados de outras instâncias, apenas pode ser chamada por uma subclasse.
 - `protected` podem ser chamados por qualquer instância se for da mesma Classe/SuperClasse.
 
+> Somente os métodos públicos podem ser ações para os controllers!
+
 Vamos testar esses modos de acessibilidade de métodos!
 
 [![.RB](https://img.shields.io/badge/principal.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
