@@ -2753,8 +2753,8 @@ O Rails trabalha mais especificamente com a arquitetura MVC (Model View Controll
 ```sh
 rails new ror-test
 cd ror-test
-bundle update
-bundle install
+bundler install
+# bundler update
 rails server # rails s
 ```
 
