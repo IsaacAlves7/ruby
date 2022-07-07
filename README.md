@@ -2760,6 +2760,10 @@ bundler install
 rails server # rails s
 ```
 
+## SQLite
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/sqlite.svg" height="177"></a></div><br \>
+
+
 ### Comando para desfazer o CRUD
 O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
 
