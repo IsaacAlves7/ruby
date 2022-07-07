@@ -2782,6 +2782,11 @@ Um **controller** é simplesmente uma classe que é definida para herdar do `App
 rails generate model Post title:string body:text
 ```
 
+### Criando tabelas com o Rails
+```sh
+rails db:migrate
+```
+
 </details>
 
 ## Autor
