@@ -2752,32 +2752,20 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 
 <pre>
 /meu_projeto
-├── app
+├── <b>app</b>
 │   ├── assets
 │   │   ├── config
 │   │   ├── images
-│   │   ├── thinkpad-cmos
 │   │   └── stylesheets
 │   ├── channels
 │   ├── controllers
 │   └── views
-├── bin
-├── config
-├── db
-│   └── conf.d
-│       ├── 10-samplerate.conf -> /usr/share/alsa/alsa.conf.d/10-samplerate.conf
-│       ├── 10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf
-...
-.
-│   ├── menus
-│   │   └── gnome-applications.menu
-│   ├── systemd
-│   │   └── user -> ../../systemd/user
-│   ├── user-dirs.conf
-│   ├── user-dirs.defaults
-│   └── Xwayland-session.d
-│       └── 00-xrdb
-├── lib
+├── <b>bin</b>
+├── <b>config</b>
+├── <b>db</b>
+|   ├── 
+│   └── seeds.rb
+├── <b>lib</b>
 │   ├── catalog
 │   ├── catalog.old
 │   ├── docbook-xml.xml
@@ -2786,7 +2774,7 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 │   ├── sgml-data.xml.old
 │   ├── xml-core.xml
 │   └── xml-core.xml.old
-├── log
+├── <b>log</b>
 │   ├── newuser.zshrc.recommended
 │   ├── zlogin
 │   ├── zlogout
