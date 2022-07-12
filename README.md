@@ -2812,6 +2812,14 @@ rails server # rails s
 
 O banco de dados padrão para o desenvolvimento em Rails é o SQLite. No entanto, geralmente, em alguns ambientes esse banco funciona apenas para a etapa de desenvolvimento e testes, não servindo para produção. Portanto, utilize outro banco de dados para produção como o MySQL ou PostgreSQL.
 
+O comando abaixo permite você definir, no início do seu projeto, o banco de dados necessário:
+
+```sh
+rails new meu_projeto -d postgresql
+```
+
+> Caso não for especificado, você irá utilizar o SQLite.
+
 Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
 ### Comando para desfazer o CRUD
