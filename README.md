@@ -2917,6 +2917,20 @@ irb(main):021:0> Post.last
 irb(main):022:0>
 </pre>
 
+Para consultar o post:
+
+<pre>
+irb(main):022:0> post
+=>
+#<Post:0x0000026fa2a5bd60
+ id: 1,
+ title: "Isaac",
+ body: "lindo",
+ created_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00,
+ updated_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00>
+irb(main):023:0>
+</pre>
+
 </details>
 
 ## Autor
