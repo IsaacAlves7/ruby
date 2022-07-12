@@ -2844,6 +2844,8 @@ Um **controller** é simplesmente uma classe que é definida para herdar do `App
 rails generate model Post title:string body:text
 ```
 
+> Dessa forma, ele vai gerar um model com título e corpo automaticamente, sem precisarmos escrever isso no código.
+
 ### Criando tabelas com o Rails
 ```sh
 rails db:migrate
