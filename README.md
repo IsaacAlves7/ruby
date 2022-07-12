@@ -2777,6 +2777,12 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 ├── <b>log</b>
 │   ├── .keep
 │   └── development.log
+├── <b>vendor</b>
+│   ├── javascript
+|   |   └── .keep
+│   └── .keep
+├── <b>.gitattributes</b>
+├── <b>.gitattributes</b>
 ├── <b>.gitignore</b>
 ├── <b>.ruby.version</b>
 ├── <b>config.ru</b>
@@ -2791,6 +2797,7 @@ Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRail
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177" align="right">
 
 ```sh
+# rails new -h
 rails new ror-test
 cd ror-test
 bundler install
