@@ -2766,17 +2766,15 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 |   ├── 
 │   └── seeds.rb
 ├── <b>lib</b>
-│   ├── catalog
-│   ├── catalog.old
-│   ├── docbook-xml.xml
-│   ├── docbook-xml.xml.old
-│   ├── sgml-data.xml
-│   ├── sgml-data.xml.old
-│   ├── xml-core.xml
-│   └── xml-core.xml.old
+│   ├── assets
+│   └── tasks
 ├── <b>log</b>
 │   ├── .keep
 │   └── development.log
+├── <b>public</b>
+├── <b>storage</b>
+├── <b>test</b>
+├── <b>tmp</b>
 ├── <b>vendor</b>
 │   ├── javascript
 |   |   └── .keep
