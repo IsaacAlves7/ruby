@@ -2892,6 +2892,31 @@ irb(main):004:0> Post.count()
 irb(main):005:0>
 </pre>
 
+Para criar um post na tabela diretamente pelo console: 
+
+<pre>
+irb(main):005:0> post = Post.create(title: "Isaac", body: "lindo")
+  TRANSACTION (0.1ms)  begin transaction
+  Post Create (1.4ms)  INSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Isaac"], ["body", "lindo"], ["created_at", "2022-07-12 18:56:22.030795"], ["updated_at", "2022-07-12 18:56:22.030795"]]
+  TRANSACTION (4.0ms)  commit transaction
+=> 
+</pre>
+
+Para contar todos os itens da tabela do maior ao menor:
+
+<pre>
+irb(main):021:0> Post.last
+  Post Load (0.3ms)  SELECT "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?  [["LIMIT", 1]]
+=> 
+#<Post:0x0000026fa3120bc8
+ id: 1,
+ title: "Isaac", 
+ body: "lindo",  
+ created_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00,    
+ updated_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00>    
+irb(main):022:0>
+</pre>
+
 </details>
 
 ## Autor
