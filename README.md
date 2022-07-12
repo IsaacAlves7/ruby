@@ -2790,14 +2790,17 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 └── <b>README.md</b>
 </pre>
 
+O **Gemfile** é onde instalamos todas as gems que iremos usar no projeto, se você for incluir alguma, é só copiar e colar o nome e a versão da gem, disponibilizada no RubyGems, no arquivo e após salva-lo basta somente rodar o comandando `bundle install` que ele irá instalar essa nova gem.
+
+
 Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRails é:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="147" align="right">
 
 ```sh
 # rails new -h
-rails new ror-test
-cd ror-test
+rails new meu_projeto
+cd meu_projeto
 bundler install
 # bundler update
 rails server # rails s
