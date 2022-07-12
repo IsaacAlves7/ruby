@@ -2776,12 +2776,10 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 │   └── xml-core.xml.old
 ├── <b>log</b>
 │   ├── newuser.zshrc.recommended
-│   ├── zlogin
-│   ├── zlogout
-│   ├── zprofile
-│   ├── zshenv
 │   └── zshrc
-└── zsh_command_not_found
+├── <b>Gemfile.lock</b>
+├── <b>Rakefile</b>
+└── README.md
 </pre>
 
 O Rails trabalha mais especificamente com a arquitetura MVC (Model View Controller), 
