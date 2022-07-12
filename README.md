@@ -2775,14 +2775,18 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 │   ├── xml-core.xml
 │   └── xml-core.xml.old
 ├── <b>log</b>
-│   ├── newuser.zshrc.recommended
-│   └── zshrc
+│   ├── .keep
+│   └── development.log
+├── <b>.gitignore</b>
+├── <b>.ruby.version</b>
+├── <b>config.ru</b>
+├── <b>Gemfile</b>
 ├── <b>Gemfile.lock</b>
 ├── <b>Rakefile</b>
-└── README.md
+└── <b>README.md</b>
 </pre>
 
-O Rails trabalha mais especificamente com a arquitetura MVC (Model View Controller), 
+Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRails é:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177" align="right">
 
