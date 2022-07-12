@@ -2736,17 +2736,65 @@ Existem várias maneiras de instalar o Rails, a mais famosa consiste na instala�
 gem install rails
 ```
 
+O comando abaixo mostra as seguintes opções que temos para criar um projeto RubyOnRails:
+
+```sh
+rails new -h
+```
+
 Logo, podemos criar o nosso primeiro projeto utilizando o Rails:
 
 ```sh
 rails new meu_projeto
 ```
 
-O comando abaixo mostra as seguintes opções que temos para criar um projeto RubyOnRails:
+Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arquivos:
 
-```sh
-rails new -h
-```
+<pre>
+/meu_projeto
+├── app
+│   ├── assets
+│   │   ├── config
+│   │   ├── images
+│   │   ├── thinkpad-cmos
+│   │   └── stylesheets
+│   ├── channels
+│   ├── controllers
+│   └── views
+├── bin
+├── config
+├── db
+│   └── conf.d
+│       ├── 10-samplerate.conf -> /usr/share/alsa/alsa.conf.d/10-samplerate.conf
+│       ├── 10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf
+...
+.
+│   ├── menus
+│   │   └── gnome-applications.menu
+│   ├── systemd
+│   │   └── user -> ../../systemd/user
+│   ├── user-dirs.conf
+│   ├── user-dirs.defaults
+│   └── Xwayland-session.d
+│       └── 00-xrdb
+├── lib
+│   ├── catalog
+│   ├── catalog.old
+│   ├── docbook-xml.xml
+│   ├── docbook-xml.xml.old
+│   ├── sgml-data.xml
+│   ├── sgml-data.xml.old
+│   ├── xml-core.xml
+│   └── xml-core.xml.old
+├── log
+│   ├── newuser.zshrc.recommended
+│   ├── zlogin
+│   ├── zlogout
+│   ├── zprofile
+│   ├── zshenv
+│   └── zshrc
+└── zsh_command_not_found
+</pre>
 
 O Rails trabalha mais especificamente com a arquitetura MVC (Model View Controller), 
 
