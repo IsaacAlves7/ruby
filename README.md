@@ -2882,6 +2882,16 @@ irb(main):003:0> Post
 irb(main):004:0>
 </pre>
 
+Para contar quantos posts tem na tabela:
+
+<pre>
+irb(main):004:0> Post.count()
+   (2.4ms)  SELECT sqlite_version(*)
+  Post Count (0.3ms)  SELECT COUNT(*) FROM "posts"
+=> 0
+irb(main):005:0>
+</pre>
+
 </details>
 
 ## Autor
