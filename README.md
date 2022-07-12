@@ -2868,6 +2868,20 @@ end
 
 > O comando `null: false` significa que o dado não será aceito ser ele conter o valor `null` (nulo).
 
+### Comando para acessar o console do Rails
+
+```sh
+rails console
+```
+
+Vamos dizer que eu queira acessar a classe Posts:
+
+<pre>
+irb(main):003:0> Post
+=> Post (call 'Post.connection' to establish a connection)
+irb(main):004:0>
+</pre>
+
 </details>
 
 ## Autor
