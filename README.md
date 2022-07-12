@@ -2851,6 +2851,23 @@ rails generate model Post title:string body:text
 rails db:migrate
 ```
 
+Dessa forma, serão criadas as tabelas no banco de dados juntamente com os models e uma pasta chamada **migrate** onde está o model de criação da tabela, como mostrado abaixo:
+
+```ruby
+class CreatePosts < ActiveRecord::Migration[7.0]
+  def change
+    create_table :posts do |t|
+      t.string :title, null: false
+      t.text :body, null: false
+
+      t.timestamps
+    end
+  end
+end
+```
+
+> O comando `null: false` significa que o dado não será aceito ser ele conter o valor `null` (nulo).
+
 </details>
 
 ## Autor
