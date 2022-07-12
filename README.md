@@ -2810,7 +2810,9 @@ rails server # rails s
 ## SQLite
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/sqlite.svg" height="177"></a></div><br \>
 
-O banco de dados padrão para o desenvolvimento em Rails é o SQLite, no entanto, esse banco funciona apenas para a etapa de desenvolvimento e não de produção. Utilize outro banco de dados para produção como o MySQL ou PostgreSQL.
+O banco de dados padrão para o desenvolvimento em Rails é o SQLite. No entanto, geralmente, em alguns ambientes esse banco funciona apenas para a etapa de desenvolvimento e testes, não servindo para produção. Portanto, utilize outro banco de dados para produção como o MySQL ou PostgreSQL.
+
+Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
 ### Comando para desfazer o CRUD
 O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
