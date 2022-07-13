@@ -2732,6 +2732,8 @@ O **Rails** é um framework/biblioteca para fazer aplicações web escritas na l
 
 A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
 
+<img src="https://user-images.githubusercontent.com/61624336/178826186-57a9bd56-5e14-4abf-9472-1c57848e2784.png" height="377" align="right">
+
 Existem várias maneiras de instalar o Rails, a mais famosa consiste na instalação a partir da `gem` oficial liberada pelo RubyGems.
 
 ```sh
