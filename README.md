@@ -2730,9 +2730,9 @@ p conta_pessoa2.saldo # 250
 
 O **Rails** é um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, ele foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, da empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
-A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177" align="right">
 
-<img src="https://user-images.githubusercontent.com/61624336/178826186-57a9bd56-5e14-4abf-9472-1c57848e2784.png" height="377" align="right">
+A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
 
 Existem várias maneiras de instalar o Rails, a mais famosa consiste na instalação a partir da `gem` oficial liberada pelo RubyGems.
 
@@ -2800,8 +2800,6 @@ O **Gemfile** é um arquivo onde instalamos todas as gems que iremos usar no pro
 
 Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRails é:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="147" align="right">
-
 ```sh
 # rails new -h
 rails new meu_projeto
@@ -2829,6 +2827,8 @@ Você pode editar essas configurações instalando uma gem e configurando em `co
 > Além disso, você pode consultar os dados pelo console do Rails ou pelo próprio banco utilizando uma ferramenta como o **DBeaver**, na qual é só definir o caminho do banco de dados e gerenciar o banco de dados pela ferramenta.
 
 ## Criando um CRUD com scaffold
+<img src="https://user-images.githubusercontent.com/61624336/178826186-57a9bd56-5e14-4abf-9472-1c57848e2784.png" height="377" align="right">
+
 Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime"), ele é uma extensão do Rails que permite criar um CRUD rapidamente somente a partir dos comandos de declaração do Model.
 
 ```sh
