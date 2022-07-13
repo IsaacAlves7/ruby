@@ -2730,6 +2730,8 @@ p conta_pessoa2.saldo # 250
 
 O **Rails** é um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, ele foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, da empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
+A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
+
 Existem várias maneiras de instalar o Rails, a mais famosa consiste na instalação a partir da `gem` oficial liberada pelo RubyGems.
 
 ```sh
@@ -2953,9 +2955,6 @@ irb(main):022:0> post
  updated_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00>
 irb(main):023:0>
 ```
-
-## Arquitetura MVC (Model View Controller)
-A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
 
 </details>
 
