@@ -2823,13 +2823,13 @@ rails new meu_projeto -d postgresql
 Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
 ## Criando um CRUD
-Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime") para criar um CRUD.
+Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime"), ele é uma extensão do Rails que permite criar um CRUD rapidamente somente a partir dos comandos de declaração do Model.
 
 ```sh
 rails g scaffold User name:string email:string
 ```
 
-O comando acima serve para gerar um scaffold com 
+O comando acima serve para gerar um scaffold com User onde nome e email recebem o valor string
 
 ### Comando para desfazer o CRUD
 O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
