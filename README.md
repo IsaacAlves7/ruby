@@ -2863,7 +2863,7 @@ Portanto, rodar o comando acima: `rails db:create` irá instanciar a ação do m
 
 ## Criando um CRUD sem scaffold
 
-# Controller
+### Controller
 Um **controller** é simplesmente uma classe que é definida para herdar do `ApplicationController`. É dentro dessa classe que você vai definir as ações por este controller. Aquelas ações vão performar as operações do CRUD nos posts.
 
 ### Gerando um model com Rails
@@ -2957,6 +2957,9 @@ irb(main):022:0> post
  updated_at: Tue, 12 Jul 2022 18:56:22.030795000 UTC +00:00>
 irb(main):023:0>
 ```
+
+### Definindo rotas no Rails
+
 
 </details>
 
