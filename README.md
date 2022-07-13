@@ -2802,8 +2802,8 @@ Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRail
 # rails new -h
 rails new meu_projeto
 cd meu_projeto
-bundler install
-# bundler update
+bundle install
+# bundle update
 rails server # rails s
 ```
 
