@@ -2820,7 +2820,7 @@ O comando abaixo permite você definir, no início do seu projeto, o banco de da
 rails new meu_projeto -d postgresql
 ```
 
-> Caso não for especificado, você irá utilizar o SQLite.
+> Caso se não for especificado, você irá utilizar o SQLite.
 
 Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
