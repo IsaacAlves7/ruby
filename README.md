@@ -2934,8 +2934,6 @@ irb(main):023:0>
 ## Arquitetura MVC (Model View Controller)
 A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
 
-> Essa arquitetura de software foi criada para resolver o problema de 
-
 </details>
 
 ## Autor
