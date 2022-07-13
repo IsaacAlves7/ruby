@@ -2841,11 +2841,21 @@ rails db:rollback
 ```
 
 ### Comando para deletar o scaffold
-O comando abaixa deleta tudo relacionado ao scaffold criado.
+O comando abaixo deleta tudo relacionado ao scaffold criado.
 
 ```sh
 rails d scaffold Product
 ```
+
+### Criando um banco de dados e migrando para o banco
+
+Após o diretório da aplicação Rails funcionar, no diretório `./db/` foi criado uma pasta `./migrate/` onde possui um model para a criação da tabela proposta.
+
+```sh
+rails db:create db:migrate
+```
+
+Portanto, rodar o comando acima: `rails db:create` irá instanciar o model para criação daquela tabela.
 
 ## Criando um CRUD sem scaffold
 
