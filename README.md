@@ -2824,6 +2824,8 @@ rails new meu_projeto -d postgresql
 
 Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
+> Além disso, você pode consultar os dados pelo console do Rails ou pelo próprio banco utilizando uma ferramenta como o **DBeaver**, na qual é só definir o caminho do banco de dados e gerenciar o banco de dados pela ferramenta.
+
 ## Criando um CRUD com scaffold
 Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime"), ele é uma extensão do Rails que permite criar um CRUD rapidamente somente a partir dos comandos de declaração do Model.
 
