@@ -2829,7 +2829,9 @@ Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzid
 rails g scaffold User name:string email:string
 ```
 
-O comando acima serve para gerar um scaffold com User onde nome e email recebem o valor string
+O comando acima serve para gerar (`g` = `generate`) um `scaffold` com `User` onde `name` e `email` recebem o valor `string`.
+
+> A partir da versão 5 do Rails não é preciso inserir o tipo `string`. Portanto o comando ficará dessa forma: `rails g scaffold User name email`
 
 ### Comando para desfazer o CRUD
 O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
