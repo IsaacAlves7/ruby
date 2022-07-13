@@ -2822,7 +2822,7 @@ rails new meu_projeto -d postgresql
 
 Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
 
-## Criando um CRUD
+## Criando um CRUD com scaffold
 Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime"), ele é uma extensão do Rails que permite criar um CRUD rapidamente somente a partir dos comandos de declaração do Model.
 
 ```sh
@@ -2844,6 +2844,8 @@ O comando abaixa deleta tudo relacionado ao scaffold criado.
 ```sh
 rails d scaffold Product
 ```
+
+## Criando um CRUD sem scaffold
 
 # Controller
 Um **controller** é simplesmente uma classe que é definida para herdar do `ApplicationController`. É dentro dessa classe que você vai definir as ações por este controller. Aquelas ações vão performar as operações do CRUD nos posts.
