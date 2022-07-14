@@ -2966,17 +2966,22 @@ Depois que fizemos todo aquele processo anterior, o Rails gera todo o MVC com as
 
 E agora, vamos aprender a criar as nossas rotas para um projeto RoR:
 
-[![.RB](https://img.shields.io/badge/routes.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+[![.RB](https://img.shields.io/badge/config/routes.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
 ```ruby
 Rails.application.routes.draw do
   resources :users
+  
+  get 'usuarios', to: 'users#index'
+  
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
   # root "articles#index"
 end
 ```
+
+Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
 
 </details>
 
