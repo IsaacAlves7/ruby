@@ -2960,9 +2960,23 @@ irb(main):023:0>
 ```
 
 ### Definindo rotas no Rails
-Endereço para saber informações sobre as rotas da aplicação: http://localhost:3000/rails/info/routes
+Depois que fizemos todo aquele processo anterior, o Rails gera todo o MVC com as rotas prontas pra criação do CRUD com o seguinte resource: `resources :users`.
 
+- Endereço para saber informações sobre as rotas da aplicação: http://localhost:3000/rails/info/routes
 
+E agora, vamos aprender a criar as nossas rotas para um projeto RoR:
+
+[![.RB](https://img.shields.io/badge/routes.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+
+```ruby
+Rails.application.routes.draw do
+  resources :users
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  # root "articles#index"
+end
+```
 
 </details>
 
