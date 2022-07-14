@@ -2962,6 +2962,7 @@ irb(main):023:0>
 
 ### Definindo rotas no Rails
 
+Endereço para informações de rotas: http://localhost:3000/rails/info/routes
 
 </details>
 
