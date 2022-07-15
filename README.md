@@ -2821,7 +2821,7 @@ rails new meu_projeto -d postgresql
 
 > Caso se não for especificado, você irá utilizar o SQLite.
 
-Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`.
+Você pode editar essas configurações instalando uma gem e configurando em `config/database.yml`. E, também vale ressaltar, que ao criar e migrar o banco de dados do PostgreSQL, o arquivo do banco de dados não irá aparecer no diretório `db`, como é o caso do SQLite. Então é necessário a instalação do banco de dados PostgreSQL (com acesso ao pgAdmin ou psql).
 
 > Além disso, você pode consultar os dados pelo console do Rails ou pelo próprio banco utilizando uma ferramenta como o **DBeaver**, na qual é só definir o caminho do banco de dados e gerenciar o banco de dados pela ferramenta.
 
