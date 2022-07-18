@@ -2985,6 +2985,10 @@ end
 
 Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
 
+# 🐋 Deploying: Rails + PostgreSQL
+
+Para saber mais acesse: https://docs.docker.com/samples/rails/
+
 </details>
 
 ## Autor
