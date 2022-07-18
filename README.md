@@ -2985,6 +2985,9 @@ end
 
 Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
 
+# Construindo um blog com RoR
+Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gorails.com/forum/install-bootstrap-with-webpack-with-rails-6-beta
+
 # 🐋 Deploying: Rails + PostgreSQL
 
 Para saber mais acesse: https://docs.docker.com/samples/rails/
