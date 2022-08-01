@@ -2865,7 +2865,7 @@ Após o diretório da aplicação Rails funcionar, no diretório `./db/` foi cri
 rails db:migrate db:create
 ```
 
-Portanto, rodar o comando acima: `rails db:create` irá instanciar a ação do model em criar um banco de dados e o outro commando: `db:migrate` para criação daquela tabela.
+Portanto, rodar o comando acima: `rails db:create` irá instanciar a ação do model em criar um banco de dados e o outro comando: `db:migrate` para criação daquela tabela.
 
 ## Criando um CRUD sem scaffold
 
