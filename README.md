@@ -2796,6 +2796,8 @@ Após isso, vai ser criado o seguinte diretório do projeto com os seguintes arq
 
 O **Gemfile** é um arquivo onde instalamos todas as gems que iremos usar no projeto, se você for incluir alguma, é só copiar e colar o nome e a versão da gem, disponibilizada no RubyGems, no arquivo e após salvá-lo basta somente rodar o comando `bundle install` que ele irá instalar essa nova gem.
 
+Já o arquivo **Gemfile.lock** é um arquivo que nem deve ser alterado, pois é gerado após a instalação do bundle.
+
 > **O Gemfile** é similar ao **package.json**.
 
 Resumidamente, o conjunto de comandos para iniciar uma aplicação em RubyOnRails é:
