@@ -2967,6 +2967,8 @@ irb(main):023:0>
 ```
 
 ### Definindo rotas no Rails
+<img src="https://user-images.githubusercontent.com/61624336/184158311-91091297-dd40-478f-8f0b-f7d3b619c224.png" align="right" height="377">
+
 Depois que fizemos todo aquele processo anterior, o Rails gera todo o MVC com as rotas prontas pra criação do CRUD com o seguinte resource: `resources :users`.
 
 - Endereço para saber informações sobre as rotas da aplicação: http://localhost:3000/rails/info/routes
