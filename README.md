@@ -72,8 +72,6 @@ print "Hello, World!"
 printf "Hello, World!"
 ```
 
-----
-
 # 🗃️ Gerenciadores de versões
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" height="177"></a></div><br \>
 
@@ -310,6 +308,8 @@ Hello World
 # 💎 RSpec
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="177"></a></div><br \>
 
+# Ruby + Cucumber + Capybara
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.pinimg.com/564x/5f/34/32/5f3432f3d53c217eebcd22121235ac3a.jpg" height="177"></a></div><br \>
   
 # 💎 Paradigma de Programação Imperativo em Ruby
 
