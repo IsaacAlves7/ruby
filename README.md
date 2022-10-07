@@ -21,9 +21,7 @@
 [![RubyGems](https://img.shields.io/badge/-Gemfile-fff?style=social&logo=RubyGems&logoColor=E9573F)](#) 
 -->
 
-<details><summary><b title="(click to open)"><code>💎 Overview</code></b></summary> 
-
-# 🐒 Paradigmas de desenvolvimento de software
+# 🐒 Linguagem de programação
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
@@ -300,10 +298,6 @@ ruby main.rb
 <pre>
 Hello World
 </pre>
-
-</details>
-
-<details><summary><b title="(click to open)"><code>💎 Imperative Ruby</code></b></summary> 
 
 # 💎 RSpec
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="177"></a></div><br \>
@@ -1643,10 +1637,6 @@ Digite alguma palavra ou número:
 true
 </pre>
 
-</details>
-
-<details><summary><b title="(click to open)"><code>💎 OOP Ruby</code></b></summary> 
-
 # 💎 Paradigma de Programação Orientada a Objetos em Ruby
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="177"></a></div><br \>
 
@@ -2728,10 +2718,6 @@ p "Conta Pessoa 2"
 p conta_pessoa2.saldo # 250
 ```
 
-</details>
-
-<details><summary><b title="(click to open)"><code>🛤️ RoR - RubyOnRails</code></b></summary> 
-
 # 🛤️ RoR - RubyOnRails
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="177"></a></div><br \>
 
@@ -3003,5 +2989,3 @@ Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gor
 # 🐋 Deploying: Rails + PostgreSQL
 
 Para saber mais acesse: https://docs.docker.com/samples/rails/
-
-</details>
