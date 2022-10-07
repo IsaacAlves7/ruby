@@ -3005,7 +3005,3 @@ Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gor
 Para saber mais acesse: https://docs.docker.com/samples/rails/
 
 </details>
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
-| :---: |
