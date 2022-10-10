@@ -2,7 +2,7 @@
 
 # <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" height="27"></a> It's a repository of Ruby language 💎
 
-<blockquote>I created this repository for my Ruby Full-Stack development learning.</blockquote>
+> 💎 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software Ruby, com a versão mais recente, instalado na sua máquina local.
 
 <!--
 - https://exercism.org/tracks/ruby
@@ -12,7 +12,7 @@
 - https://rspec.info/
 -->
 
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="277"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="177"></a></div>
 
 <!-- 
 [![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
