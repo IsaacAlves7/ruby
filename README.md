@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming/"><img src="https://www.bacancytechnology.com/blog/wp-content/uploads/2017/05/Banner.jpg"></a></div>
 
-# <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" height="27"></a> It's a repository of Ruby language 💎
+# It's a repository of Ruby language 💎
 
 > 💎 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software Ruby, com a versão mais recente, instalado na sua máquina local.
 
