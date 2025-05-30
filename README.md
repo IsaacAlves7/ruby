@@ -300,7 +300,15 @@ Algumas das principais características do RSpec incluem:
 - Relatórios de teste: O RSpec fornece relatórios de teste detalhados, que mostram quais testes passaram ou falharam, e por quê.
 
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.pinimg.com/564x/5f/34/32/5f3432f3d53c217eebcd22121235ac3a.jpg" height="177"></a></div><br \>
-  
+
+Ruby + Cucumber + Capybara é uma combinação de ferramentas para desenvolvimento de software que visa facilitar a criação de testes automatizados de aceitação, também conhecidos como testes de comportamento. A combinação Ruby + Cucumber + Capybara é amplamente utilizada em projetos de desenvolvimento de software, especialmente aqueles que utilizam o framework Ruby on Rails.
+
+**Cucumber** é uma ferramenta de teste de comportamento que permite que os desenvolvedores escrevam testes em uma linguagem natural. É baseada na abordagem Behavior-Driven Development (BDD). Cucumber é frequentemente usado para testar a interface do usuário e o comportamento do sistema.
+
+**Capybara** é uma ferramenta de teste de aceitação que simula a interação do usuário com a aplicação web. É projetada para ser usada com Cucumber. Capybara fornece uma API simples para interagir com a aplicação web, como clicar em botões, preencher formulários, etc.
+
+Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatizados de aceitação que simulam a interação do usuário com a aplicação web. Isso ajuda a garantir que a aplicação esteja funcionando corretamente e atendendo aos requisitos do projeto.
+
 # 💎 [Ruby] OOP
 
 Executando um código-fonte:
