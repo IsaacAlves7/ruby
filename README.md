@@ -2829,23 +2829,19 @@ O comando acima serve para gerar (`g` = `generate`) um `scaffold` com `User` ond
 
 > A partir da versão 5 do Rails não é preciso inserir o tipo `string`. Portanto o comando ficará dessa forma: `rails g scaffold User name email`
 
-### Comando para desfazer o CRUD
-O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
+**Comando para desfazer o CRUD**: O comando abaixo serve para excluir as tabelas criadas para fazer o CRUD, com isso o CRUD será desfeito.
 
 ```sh
 rails db:rollback
 ```
 
-### Comando para deletar o scaffold
-O comando abaixo deleta tudo relacionado ao scaffold criado.
+**Comando para deletar o scaffold**: O comando abaixo deleta tudo relacionado ao scaffold criado.
 
 ```sh
 rails d scaffold Product
 ```
 
-### Criando um banco de dados e migrando para o banco
-
-Após o diretório da aplicação Rails funcionar, no diretório `./db/` foi criado uma pasta `./migrate/` onde possui um model para a criação da tabela proposta.
+**Criando um banco de dados e migrando para o banco**: Após o diretório da aplicação Rails funcionar, no diretório `./db/` foi criado uma pasta `./migrate/` onde possui um model para a criação da tabela proposta.
 
 ```sh
 rails db:migrate db:create
