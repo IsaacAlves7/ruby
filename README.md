@@ -58,7 +58,7 @@ printf "Hello, World!"
 ```
 
 # 💎 [Ruby] Gerenciadores de versões
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" height="77" align="right"></a>
 
 O **gerenciamento de versão** se refere ao processo de planejamento, desenvolvimento, agendamento, testes, implantação e controle de versões de software. Ele garante que as equipes de versão entreguem com eficiência os aplicativos e os upgrades exigidos pelas empresas e preservem, ao mesmo tempo, a integridade do ambiente de produção existente. Vamos utiliza-lo no ambiente de desenvolvimento para gerenciar as versões do Ruby.
 
