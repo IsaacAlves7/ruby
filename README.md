@@ -2872,18 +2872,18 @@ rails db:migrate db:create
 Portanto, rodar o comando acima: `rails db:create` irá instanciar a ação do model em criar um banco de dados e o outro comando: `db:migrate` para criação daquela tabela.
 
 ## Criando um CRUD sem scaffold
-
-### Controller
 Um **controller** é simplesmente uma classe que é definida para herdar do `ApplicationController`. É dentro dessa classe que você vai definir as ações por este controller. Aquelas ações vão performar as operações do CRUD nos posts.
 
-### Gerando um model com Rails
+Gerando um model com Rails:
+
 ```sh
 rails generate model Post title:string body:text
 ```
 
 > Dessa forma, ele vai gerar um model com título e corpo automaticamente, sem precisarmos escrever isso no código.
 
-### Criando as tabelas no banco de dados com o Rails
+Criando as tabelas no banco de dados com o Rails:
+
 ```sh
 rails db:migrate
 ```
@@ -2905,7 +2905,7 @@ end
 
 > O comando `null: false` significa que o dado não será aceito ser ele conter o valor `null` (nulo).
 
-### Comando para acessar o console do Rails
+Comando para acessar o console do Rails:
 
 ```sh
 rails console
@@ -2968,7 +2968,6 @@ irb(main):022:0> post
 irb(main):023:0>
 ```
 
-### Definindo rotas no Rails
 <img src="https://user-images.githubusercontent.com/61624336/184158311-91091297-dd40-478f-8f0b-f7d3b619c224.png" align="right" height="377">
 
 Depois que fizemos todo aquele processo anterior, o Rails gera todo o MVC com as rotas prontas pra criação do CRUD com o seguinte resource: `resources :users`.
