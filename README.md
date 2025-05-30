@@ -693,52 +693,61 @@ ruby mensagem.rb
 O tamanho da minha string é: 30
 </pre>
 
-### Operações com Strings
-#### Pegar um caracter da String
+## [Ruby] Operações com Strings
+
+Pegar um caracter da String
 
 ```ruby
 # 01234
 "Isaac"[0] # "I"
 ```
 
-#### Todos os caracteres da string como array
+Todos os caracteres da string como array
+
 ```ruby
 "Isaac".chars # ["I", "s", "a", "a", "c"]
 ```
 
-#### Substring
+Substring
+
 ```ruby
 "Isaac"[0,3] # "Isa"
 ```
 
-#### Multiplicação de Strings
+Multiplicação de Strings
+
 ```ruby
 "-" * 10 #  "----------"
 ```
 
-#### Multiplicação de Strings
+Multiplicação de Strings
+
 ```ruby
 "   mensagem   ".strip #  "mensagem"
 ```
 
-#### Maiúsculo/Minúsculo
+Maiúsculo/Minúsculo
+
 ```ruby
 "isaac".upcase # upcase
 "ISAAC".downcase # downcase
 ```
 
-#### Primeira letra maíuscula
+Primeira letra maíuscula
+
 ```ruby
 "isaac".capitalize
 ```
 
-#### Dividir
+Dividir
+
 ```ruby
 "cadu teste outra_nome".split
 "cadu-teste-outro_nome".split("-")
 ```
 
-### Brincando com manipulação de variáveis e operações de Strings
+Brincando com manipulação de variáveis e operações de Strings
+
 > o comando `p` imprime a string da sua forma natural inserida pelo programador, diferente do comando `print` que imprime com valor nulo.
 
 ```ruby
