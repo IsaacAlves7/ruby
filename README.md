@@ -47,14 +47,32 @@ class Hello
 
 Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de programação Python.
 
-## Hello, World! - Ruby
+## `Hello, World!` - Ruby
 [![.RB](https://img.shields.io/badge/-HelloWorld.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+
 ```ruby
 puts "Hello World!" # mais comum
 puts ("Hello World!")
 p "Hello, World!"
 print "Hello, World!"
 printf "Hello, World!"
+```
+
+Evento:
+
+```ruby
+nome = "Isaac"
+mensagem = "Bem vindo #{nome}"
+
+puts mensagem
+```
+
+Heredoc:
+
+```ruby
+mensagem = <<~TXT
+  Essa é minha mensagem
+TXT
 ```
 
 # 💎 [Ruby] Gerenciadores de versões
@@ -311,7 +329,7 @@ Ruby + Cucumber + Capybara é uma combinação de ferramentas para desenvolvimen
 
 Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatizados de aceitação que simulam a interação do usuário com a aplicação web. Isso ajuda a garantir que a aplicação esteja funcionando corretamente e atendendo aos requisitos do projeto.
 
-# 💎 [Ruby] OOP
+# 💎 [Ruby] Procedural
 
 Executando um código-fonte:
 
@@ -347,21 +365,6 @@ Tab
 Aspas
 ```ruby
 \"
-```
-
-### Evento
-```ruby
-nome = "Isaac"
-mensagem = "Bem vindo #{nome}"
-
-puts mensagem
-```
-
-### Heredoc
-```ruby
-mensagem = <<~TXT
-  Essa é minha mensagem
-TXT
 ```
 
 **Código-fonte `main.rb`:**
