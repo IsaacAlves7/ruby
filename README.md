@@ -301,7 +301,6 @@ Algumas das principais características do RSpec incluem:
 - Testes de integração: O RSpec também pode ser usado para escrever testes de integração, que verificam se as diferentes unidades de código estão funcionando corretamente juntas.
 - Relatórios de teste: O RSpec fornece relatórios de teste detalhados, que mostram quais testes passaram ou falharam, e por quê.
 
-# Ruby + Cucumber + Capybara
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.pinimg.com/564x/5f/34/32/5f3432f3d53c217eebcd22121235ac3a.jpg" height="177"></a></div><br \>
   
 # 💎 Paradigma de Programação Imperativo em Ruby
