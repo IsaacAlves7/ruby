@@ -2719,11 +2719,7 @@ p conta_pessoa2.saldo # 250
 # 🛤️ RoR - RubyOnRails
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="77" align="right"></a>
 
-O **Rails** é um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, ele foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, da empresa do DHH, cujo era um software de gerenciamento de tarefas.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg" height="177" align="right">
-
-A biblioteca **Rails** trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
+O **Rails** é um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, ele foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, da empresa do DHH, cujo era um software de gerenciamento de tarefas. A biblioteca Rails trabalha mais especificamente com um padrão de arquitetura de software chamado MVC (Model View Controller) que separa a representação da informação da interação do usuário.
 
 Existem várias maneiras de instalar o Rails, a mais famosa consiste na instalação a partir da `gem` oficial liberada pelo RubyGems.
 
