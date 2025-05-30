@@ -2806,7 +2806,6 @@ bundle install
 rails server # rails s
 ```
 
-## SQLite
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://cdn.worldvectorlogo.com/logos/sqlite.svg" height="77" align="right"></a>
 
 O banco de dados padrão para o desenvolvimento em Rails é o SQLite. No entanto, geralmente, em alguns ambientes esse banco funciona apenas para a etapa de desenvolvimento e testes, não servindo para produção. Portanto, utilize outro banco de dados para produção como o MySQL ou PostgreSQL.
