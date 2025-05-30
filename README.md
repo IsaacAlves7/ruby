@@ -798,7 +798,7 @@ O número é 00007
 Minha mulher
 </pre>
 
-# Tipos numéricos
+## [Ruby] Tipos numéricos
 **(Input) Entrada**
 ```ruby
 irb
