@@ -12,8 +12,6 @@
 - https://rspec.info/
 -->
 
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://sd.keepcalms.com/i/keep-calm-and-code-with-ruby-1.png" height="177"></a></div>
-
 <!-- 
 [![.RB](https://img.shields.io/badge/-script.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 [![.RAKE](https://img.shields.io/badge/-script.rake-fff?style=social&logo=Ruby&logoColor=CC342D)](#)
