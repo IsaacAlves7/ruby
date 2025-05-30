@@ -85,11 +85,12 @@ asdf list nodejs
 ```
 
 # 📦 `gem` - RubyGems
-<div align="center"><a href="https://rubygems.org/"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" height="177"></a></div><br \>
+<a href="https://rubygems.org/"><img src="https://cdn.worldvectorlogo.com/logos/rubygems.svg" height="77" align="right"></a>
 
 São bibliotecas de código escritas em Ruby compartilhadas entre a comunidade, então basicamente o `gem` é um gerenciador de pacotes (package manager) imbutido na linguagem Ruby. Você consegue fazer o download de uma biblioteca Ruby fazendo: `gem install nomeDaBiblioteca`, um exemplo de gem é o próprio **Rails**. Existe um site em que você pode encontrar essas gems: https://rubygems.org/?locale=pt-BR
 
-### Comando para listar todas as gems locais
+Comando para listar todas as gems locais:
+
 ```sh
 gem list
 ```
