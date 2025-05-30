@@ -57,7 +57,7 @@ print "Hello, World!"
 printf "Hello, World!"
 ```
 
-# 🗃️ Gerenciadores de versões
+# 💎 [Ruby] Gerenciadores de versões
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" height="177"></a></div><br \>
 
 O **gerenciamento de versão** se refere ao processo de planejamento, desenvolvimento, agendamento, testes, implantação e controle de versões de software. Ele garante que as equipes de versão entreguem com eficiência os aplicativos e os upgrades exigidos pelas empresas e preservem, ao mesmo tempo, a integridade do ambiente de produção existente. Vamos utiliza-lo no ambiente de desenvolvimento para gerenciar as versões do Ruby.
@@ -72,8 +72,9 @@ Existe alguns tipos de gerenciadores de versão indicados:
 
 Vou usar o **asdf**, você pode usar ele nos sistemas operacionais Linux ou no macOS, além dos interpretadores de comando UNIX, como Bash, ZSH ou Fish.
 
-### Comandos utilizados para iniciar o asdf:
-```
+Comandos utilizados para iniciar o asdf:
+
+```sh
 asdf version
 asdf plugin-add ruby
 asdf install ruby 2.7.1
