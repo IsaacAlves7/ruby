@@ -2717,7 +2717,7 @@ p conta_pessoa2.saldo # 250
 ```
 
 # 🛤️ RoR - RubyOnRails
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" height="77" align="right"></a>
 
 O **Rails** é um framework/biblioteca para fazer aplicações web escritas na linguagem Ruby, ele foi criado em 2004 por David Heinemeier Hanson (DHH) e foi extraído pelo software **Basecamp**, da empresa do DHH, cujo era um software de gerenciamento de tarefas.
 
