@@ -2317,7 +2317,7 @@ pessoa = Pessoa.gerar # instânciando a classe com o método de classe gerar
 p pessoa 
 ```
 
-## Visibilidade dos métodos
+## [Ruby] Visibilidade dos métodos
 Até agora, todos os métodos que utilizamos na classe são públicos, porque é o padrão, isso quer dizer que eles são acessíveis em qualquer outro lugar no nosso código.
 
 [![.RB](https://img.shields.io/badge/MinhaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
@@ -2544,7 +2544,7 @@ class MinhaSubClasse < MinhaClasse
   end
 end
 
-### a partir daqui, é um outro contexto
+# a partir daqui, é um outro contexto
 
 obj = MinhaSubClasse.new
 obj.m4
@@ -2576,15 +2576,15 @@ pessoa = Pessoa.new
 pessoa.send(:falar)
 ```
 
-## Exercício 02: Conta bancária
+Exercício 02: Conta bancária
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/bank_1f3e6.png" height="177"></div>
 
-### Desafio:
+Desafio:
 - Criar uma classe responsável para representar Contas Bancárias.
 - Criar um método que me permita transferir valor entre contas usando: "conta1.transferir(conta2,100)" onde 100 é o valor que eu desejo transferir.
 - Plus: Criar um tipo de conta em que existe uma tarifa para se transferir dinheiro
 
-### Solução:
+Solução:
 
 **Estrutura de arquivos**
 
