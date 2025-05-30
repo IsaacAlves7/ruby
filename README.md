@@ -1647,12 +1647,13 @@ Digite alguma palavra ou número:
 true
 </pre>
 
-# 💎 Paradigma de Programação Orientada a Objetos em Ruby
+# 💎 [Ruby] OOP
 <div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="177"></a></div><br \>
 
 Agora, iremos aprender sobre o paradigma orientado a objetos em Ruby, se você tiver o mesmo conhecimento em teorias e lógicas sobre este paradigma é bem mais fácil, basta somente usar com a semântica do Ruby.
 
-## A diferença entre Classes x Objetos
+A diferença entre Classes x Objetos:
+
 ![Classes e Objetos - Poo](https://user-images.githubusercontent.com/61624336/156935818-8e6ee659-f443-4afc-afbc-8e89c51b0715.png)
 
 Na imagem acima, conseguimos ter uma boa ideia do que seria uma classe e objetos. A **classe**, ou _class_, é como se fosse uma **planta** ou **esboço** de um objeto ou partes de um objeto. 
@@ -1661,7 +1662,7 @@ Um **objeto**, ou _object_, é a construção daquela _classe_ (planta ou esboç
 
 > Então, podemos obter vários objetos na memória do computador a partir dessa **classe** (desenho técnico) como referência (como esboço).
 
-### Sintaxe para classe:
+Sintaxe para classe:
 
 [![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
@@ -1670,7 +1671,7 @@ class NomeDaClasse
 end
 ```
 
-### Sintaxe para objeto:
+Sintaxe para objeto:
 
 [![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
@@ -1678,7 +1679,7 @@ end
 obj NomeDaClasse.new
 ```
 
-### Instanciando uma classe pelo objeto
+Instanciando uma classe pelo objeto:
  
 [![.RB](https://img.shields.io/badge/hello_world.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
@@ -1733,7 +1734,7 @@ outro_nome
 ## Métodos e atributos para as instâncias de um objeto
 Foi feita uma **classe** chamada `NomeDaClasse`, porém essa está em branco (BLANK).
 
-### Sintaxe de uma classe em Ruby
+Sintaxe de uma classe em Ruby:
 
 ```ruby
 class NomeDaClasse
