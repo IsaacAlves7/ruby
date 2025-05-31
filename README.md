@@ -1513,7 +1513,91 @@ end
 Meu nome é Isaac e tenho 21 anos
 </pre>
 
-## Métodos (Methods)
+# 💎 [Ruby] OOP
+<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="77" align="right"></a>
+
+Agora, iremos aprender sobre o paradigma orientado a objetos em Ruby, se você tiver o mesmo conhecimento em teorias e lógicas sobre este paradigma é bem mais fácil, basta somente usar com a semântica do Ruby.
+
+A diferença entre Classes x Objetos:
+
+![Classes e Objetos - Poo](https://user-images.githubusercontent.com/61624336/156935818-8e6ee659-f443-4afc-afbc-8e89c51b0715.png)
+
+Na imagem acima, conseguimos ter uma boa ideia do que seria uma classe e objetos. A **classe**, ou _class_, é como se fosse uma **planta** ou **esboço** de um objeto ou partes de um objeto. 
+
+Um **objeto**, ou _object_, é a construção daquela _classe_ (planta ou esboço) na memória do computador, portanto, chamamos essa construção de **instância**.
+
+> Então, podemos obter vários objetos na memória do computador a partir dessa **classe** (desenho técnico) como referência (como esboço).
+
+Sintaxe para classe:
+
+[![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+
+```ruby
+class NomeDaClasse
+end
+```
+
+Sintaxe para objeto:
+
+[![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+
+```ruby
+obj NomeDaClasse.new
+```
+
+Instanciando uma classe pelo objeto:
+ 
+[![.RB](https://img.shields.io/badge/hello_world.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
+
+```ruby
+class MinhaClasse
+end
+
+objeto = MinhaClasse.new
+
+p objeto.object_id
+```
+
+[![irb](https://img.shields.io/badge/irb-fff?style=social&logo=Ruby&logoColor=red)](#)
+
+```sh
+irb
+nome = "isaac"
+nome.object_id
+outra_variável = "outro_nome"
+outra_variável.object_id
+outro_nome = nome
+nome
+outro_nome
+nome.object_id
+outro_nome.object_id
+nome.upcase
+nome
+nome.upcase!
+nome
+outro_nome
+```
+
+[![.RB](https://img.shields.io/badge/(OUTPUT)_Saída:-fff?style=social&logo=GNU-Bash&logoColor=990000)](#)
+
+<pre>
+=> "isaac"
+=> 180
+=> "outro_nome"
+=> 200
+=> "isaac"
+=> "isaac"
+=> "isaac"
+=> 180
+=> 180
+=> "ISAAC"
+=> "isaac"
+=> "ISAAC"
+=> "ISAAC"
+=> "ISAAC"
+</pre>
+
+## [Ruby] Métodos
 ```ruby
 def meu_metodo
   puts "meu_metodo foi executado"
@@ -1663,90 +1747,6 @@ true
 Digite alguma palavra ou número:
 7
 true
-</pre>
-
-# 💎 [Ruby] OOP
-<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="77" align="right"></a>
-
-Agora, iremos aprender sobre o paradigma orientado a objetos em Ruby, se você tiver o mesmo conhecimento em teorias e lógicas sobre este paradigma é bem mais fácil, basta somente usar com a semântica do Ruby.
-
-A diferença entre Classes x Objetos:
-
-![Classes e Objetos - Poo](https://user-images.githubusercontent.com/61624336/156935818-8e6ee659-f443-4afc-afbc-8e89c51b0715.png)
-
-Na imagem acima, conseguimos ter uma boa ideia do que seria uma classe e objetos. A **classe**, ou _class_, é como se fosse uma **planta** ou **esboço** de um objeto ou partes de um objeto. 
-
-Um **objeto**, ou _object_, é a construção daquela _classe_ (planta ou esboço) na memória do computador, portanto, chamamos essa construção de **instância**.
-
-> Então, podemos obter vários objetos na memória do computador a partir dessa **classe** (desenho técnico) como referência (como esboço).
-
-Sintaxe para classe:
-
-[![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
-
-```ruby
-class NomeDaClasse
-end
-```
-
-Sintaxe para objeto:
-
-[![.RB](https://img.shields.io/badge/NomeDaClasse.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
-
-```ruby
-obj NomeDaClasse.new
-```
-
-Instanciando uma classe pelo objeto:
- 
-[![.RB](https://img.shields.io/badge/hello_world.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
-
-```ruby
-class MinhaClasse
-end
-
-objeto = MinhaClasse.new
-
-p objeto.object_id
-```
-
-[![irb](https://img.shields.io/badge/irb-fff?style=social&logo=Ruby&logoColor=red)](#)
-
-```sh
-irb
-nome = "isaac"
-nome.object_id
-outra_variável = "outro_nome"
-outra_variável.object_id
-outro_nome = nome
-nome
-outro_nome
-nome.object_id
-outro_nome.object_id
-nome.upcase
-nome
-nome.upcase!
-nome
-outro_nome
-```
-
-[![.RB](https://img.shields.io/badge/(OUTPUT)_Saída:-fff?style=social&logo=GNU-Bash&logoColor=990000)](#)
-
-<pre>
-=> "isaac"
-=> 180
-=> "outro_nome"
-=> 200
-=> "isaac"
-=> "isaac"
-=> "isaac"
-=> 180
-=> 180
-=> "ISAAC"
-=> "isaac"
-=> "ISAAC"
-=> "ISAAC"
-=> "ISAAC"
 </pre>
 
 ## Métodos e atributos para as instâncias de um objeto
