@@ -1864,7 +1864,7 @@ pessoa.nome = "Foo"
 pessoa.nome
 ```
 
-### Getters e Setters em Ruby
+## [OOP] Getters e Setters 
 Para **getters** e **setters** em Ruby, utilizamos o método `attr_accessor` para uma variável `:nome`. Dessa forma, faz o objeto se comportar da mesma forma como anteriormente, ou seja, a gente cria um objeto e a gente troca esse objeto com o atributo (variável) `:nome` e a gente retorna esse objeto.
 
 [![.RB](https://img.shields.io/badge/exemplo.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
