@@ -1158,7 +1158,7 @@ else
 end
 ```
 
-### Exemplo estrutura de condicional:
+Exemplo estrutura de condicional:
 **Entrada (Input)**:
 ```ruby
 valor gets.chomp.to_i # conversor para inteiro
@@ -1185,7 +1185,7 @@ Integer
 Esse valor é maior que 20
 </pre>
 
-### Exemplo estrutura de condicional:
+Exemplo estrutura de condicional:
 **Entrada (Input)**:
 ```ruby
 puts "Digitar um valor: "
@@ -1205,7 +1205,7 @@ end
 </pre>
 
 
-### Exemplo 2 - estrutura de condicional:
+Exemplo 2 - estrutura de condicional:
 **Entrada (Input)**:
 ```ruby
 valor = ""
@@ -1324,7 +1324,7 @@ next # vai imediatamente para a próxima iteração
 redo # repete o laço do início (a condição não será reavaliada)
 ```
 
-### Exemplo 1: Imprimir de 0 até 9
+Exemplo 1: Imprimir de 0 até 9
 **Entrada (Input)**:
 ```ruby
 valor = 0
@@ -1348,7 +1348,7 @@ O valor é 8
 O valor é 9
 </pre>
 
-### Exemplo 1: Imprimir de 0 até 5
+Exemplo 1: Imprimir de 0 até 5
 **Entrada (Input)**:
 ```ruby
 valor = 0
@@ -1369,7 +1369,7 @@ O valor é 4
 O valor é 5
 </pre>
 
-### Exemplo 1: Imprimir de 0 até 5
+Exemplo 1: Imprimir de 0 até 5
 **Entrada (Input)**:
 ```ruby
 valor = 0
@@ -1390,7 +1390,7 @@ O valor é 4
 O valor é 5
 </pre>
 
-### Exemplo 2: For
+Exemplo 2: For
 **Entrada (Input)**:
 ```ruby
 for meu_valor in [0,1,2,3,4,5,6,7]
@@ -1410,7 +1410,7 @@ O valor é 6
 O valor é 7
 </pre>
 
-### Exemplo 2: Range For
+Exemplo 2: Range For
 **Entrada (Input)**:
 ```ruby
 range = 0..7
@@ -1431,7 +1431,7 @@ O valor é 6
 O valor é 7
 </pre>
 
-### Exemplo 2: For Range
+Exemplo 2: For Range
 **Entrada (Input)**:
 ```ruby
 for meu_valor in 0..7
@@ -1451,7 +1451,7 @@ O valor é 6
 O valor é 7
 </pre>
 
-### Exemplo 2: For para Arrays
+Exemplo 2: For para Arrays
 **Entrada (Input)**:
 ```ruby
 lista = [0,1,2,3,4,5,6,7]
@@ -1472,7 +1472,7 @@ O valor é 6
 O valor é 7
 </pre>
 
-### Exemplo 2: Each
+Exemplo 2: Each
 **Entrada (Input)**:
 ```ruby
 lista = [0,1,2,3,4,5,6,7]
@@ -1495,7 +1495,7 @@ O valor é 6
 O valor é 7
 </pre>
 
-### Exemplo 2: Each com hash
+Exemplo 2: Each com hash
 **Entrada (Input)**:
 ```ruby
 hash = {nome: Isaac, idade: 21}
