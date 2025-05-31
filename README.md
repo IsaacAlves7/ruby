@@ -826,7 +826,7 @@ Integer
 Float
 </pre>
 
-## `Int` - Inteiros
+## [Ruby] `Int` - Inteiros
 **(Input) Entrada**
 ```ruby
 puts 123_500
@@ -837,7 +837,7 @@ puts 123_500
 123500
 </pre>
 
-## `Float` - Flutuante
+## [Ruby] `Float` - Flutuante
 **(Input) Entrada**
 ```ruby
 # soma um inteiro com um ponto flutuante
