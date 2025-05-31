@@ -1662,7 +1662,7 @@ true
 </pre>
 
 # 💎 [Ruby] OOP
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://static.wikia.nocookie.net/battlefordreamisland/images/5/5a/Garnet.png/revision/latest?cb=20210222161103" height="77" align="right"></a>
 
 Agora, iremos aprender sobre o paradigma orientado a objetos em Ruby, se você tiver o mesmo conhecimento em teorias e lógicas sobre este paradigma é bem mais fácil, basta somente usar com a semântica do Ruby.
 
