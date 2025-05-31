@@ -1864,7 +1864,7 @@ pessoa.nome = "Foo"
 pessoa.nome
 ```
 
-## [OOP] Getters e Setters 
+## 💎 [Ruby] Getters e Setters 
 Para **getters** e **setters** em Ruby, utilizamos o método `attr_accessor` para uma variável `:nome`. Dessa forma, faz o objeto se comportar da mesma forma como anteriormente, ou seja, a gente cria um objeto e a gente troca esse objeto com o atributo (variável) `:nome` e a gente retorna esse objeto.
 
 [![.RB](https://img.shields.io/badge/exemplo.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
@@ -2159,7 +2159,7 @@ carro = Carro.new("carro", foo)
 ap foo # método da biblioteca importada
 ```
 
-## Herança
+## 💎 [Ruby] Herança
 O conceito de herança é quando uma classe precisa herdar as funcionalidades de outra classe.
 
 ![Herança (Poo Ruby)](https://user-images.githubusercontent.com/61624336/174844671-6f1021e0-c634-4d29-8efe-46d04b5c315d.png)
@@ -2283,8 +2283,7 @@ Pessoa.gerar
 
 > Os métodos de classe são úteis quando possuímos uma funcionalidade que não é tão dependente do estado do objeto.
 
-### Sintaxe dos métodos de classe
-Para definirmos os métodos de classe basta somente inserir o prefixo `self.nome_do_método`, isso é claro depois de ser inserido o `def` da função do nosso método. 
+Sintaxe dos métodos de classe: Para definirmos os métodos de classe basta somente inserir o prefixo `self.nome_do_método`, isso é claro depois de ser inserido o `def` da função do nosso método. 
 
 [![.RB](https://img.shields.io/badge/Pessoa.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
@@ -2682,7 +2681,7 @@ class ContaBancaria
 end
 ```
 
-### Plus: Taxa na transferência
+Plus: Taxa na transferência
 
 **Estrutura de arquivos**
 
@@ -2843,7 +2842,7 @@ Com isso, a sua aplicação RoR irá se conectar ao banco de dados do PostgreSQL
 
 > Além disso, você pode consultar os dados pelo console do Rails ou pelo próprio banco utilizando uma ferramenta como o **DBeaver**, na qual é só definir o caminho do banco de dados e gerenciar o banco de dados pela ferramenta.
 
-## Criando um CRUD com scaffold
+## [RoR] Criando um CRUD com scaffold
 <img src="https://user-images.githubusercontent.com/61624336/178826186-57a9bd56-5e14-4abf-9472-1c57848e2784.png" height="377" align="right">
 
 Com o projeto criado, projeto `mvc_test`, iremos utilizar o `scaffold` (traduzido no inglês como "andaime"), ele é uma extensão do Rails que permite criar um CRUD rapidamente somente a partir dos comandos de declaração do Model.
@@ -2876,7 +2875,7 @@ rails db:migrate db:create
 
 Portanto, rodar o comando acima: `rails db:create` irá instanciar a ação do model em criar um banco de dados e o outro comando: `db:migrate` para criação daquela tabela.
 
-## Criando um CRUD sem scaffold
+## [RoR] Criando um CRUD sem scaffold
 Um **controller** é simplesmente uma classe que é definida para herdar do `ApplicationController`. É dentro dessa classe que você vai definir as ações por este controller. Aquelas ações vão performar as operações do CRUD nos posts.
 
 Gerando um model com Rails:
@@ -2998,9 +2997,9 @@ end
 
 Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
 
-# Construindo um blog com RoR
+# 💎 Construindo um blog com RoR
 Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gorails.com/forum/install-bootstrap-with-webpack-with-rails-6-beta
 
-# 🐋 Deploying: Rails + PostgreSQL
+# 💎 Deploying: Rails + PostgreSQL
 
 Para saber mais acesse: https://docs.docker.com/samples/rails/
