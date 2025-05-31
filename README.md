@@ -340,8 +340,8 @@ Executando um código-fonte:
 
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png" height="77" align="right"></a>
 
-## Strings
-São tipos de dados tratados como escrita ou texto, podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
+# 💎 [Ruby] Tipos de dados
+Strings são tipos de dados tratados como escrita ou texto, podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
 
 **Exemplo:**
 ```ruby
@@ -350,19 +350,22 @@ nome = 'Isaac'
 nome = %q(meu texto)
 ```
 
-### Caracteres de escape com Aspas `("")`
+Caracteres de escape com Aspas `("")`
 
- Nova linha
+Nova linha:
+
 ```ruby
 \n
 ```
 
-Tab
+Tab:
+
 ```ruby
 \t
 ```
 
-Aspas
+Aspas:
+
 ```ruby
 \"
 ```
