@@ -1064,7 +1064,7 @@ else
 end
 ```
 
-# [Ruby] Operadores 
+# 💎 [Ruby] Operadores e expressões
 
 Operadores relacionais
 ```ruby
