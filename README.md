@@ -2272,7 +2272,7 @@ Métricas analisadas e coletadas
 Métricas analisadas e coletadas novamente
 </pre>
 
-## Métodos e atributos de classe
+## [Ruby] Métodos e atributos de classe
 
 Até então foram feitos métodos de classe como `Pessoa.new` que gerava uma nova classe a ser usada, mas também podemos definir as nossas próprias classes e esses métodos são chamados na classe, bem diferente daqueles que eram instâncias da classe para criação de um objeto específico.
 
