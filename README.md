@@ -47,7 +47,7 @@ class Hello
 
 Possui uma **tipagem dinâmica** e **forte**, se assemelhando a linguagem de programação Python.
 
-## `Hello, World!` - Ruby
+## [Ruby] `Hello, World!`
 [![.RB](https://img.shields.io/badge/-HelloWorld.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
 ```ruby
@@ -73,6 +73,11 @@ Heredoc:
 mensagem = <<~TXT
   Essa é minha mensagem
 TXT
+```
+
+## [Ruby] Comentário
+```ruby
+# comentário de uma linha
 ```
 
 # 💎 [Ruby] Gerenciadores de versões
@@ -334,11 +339,6 @@ Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatiz
 Executando um código-fonte:
 
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://www.ruby-toolbox.com/assets/startpage/box-fa44e6399af516d2641d0f88ee7d18760a7973181b568f40e86a1e441e03a83a.png" height="77" align="right"></a>
-
-## Comentário
-```ruby
-# comentário de uma linha
-```
 
 ## Strings
 São tipos de dados tratados como escrita ou texto, podem ser definidas entre aspas duplas `("")` ou apóstrofos, também conhecida como aspas simples `('')`.
