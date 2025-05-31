@@ -1053,17 +1053,6 @@ nome = gets
 puts "Seu nome é #(nome)"
 ```
 
-## Estruturas Condicionais
-
-Sintaxe
-```ruby
-if condicao 
-  faca_algo
-else
-  faca_outra_coisa
-end
-```
-
 # 💎 [Ruby] Operadores e expressões
 
 Operadores relacionais
@@ -1084,6 +1073,19 @@ Operadores lógicos
 || # Or 
 ```
 
+# 💎 [Ruby] Estruturas de programação
+
+## [Ruby] Estruturas Condicionais
+
+Sintaxe
+```ruby
+if condicao 
+  faca_algo
+else
+  faca_outra_coisa
+end
+```
+
 Estrutura condicional com operadores relacionais
 
 ```ruby
@@ -1095,7 +1097,8 @@ else
 end
 ```
 
-### Estrutura condicional com operadores relacionais `&&` lógicos
+Estrutura condicional com operadores relacionais `&&` lógicos
+
 ```ruby
 valor = 65
 if valor >= 50 && valor <= 100
@@ -1103,7 +1106,7 @@ if valor >= 50 && valor <= 100
 end
 ```
 
-### Estrutura condicional com `elsif` (senão se)
+Estrutura condicional com `elsif` (senão se)
 ```ruby
 valor = 20
 if valor > 50
@@ -1125,8 +1128,7 @@ valor = 20
 puts "Eu sou maior que 50" if valor > 50 
 ```
 
-### `unless`
-> Se a condição não for verdadeira, ele iá executar o bloco de código dentro dela (faca_isso).
+`unless` Se a condição não for verdadeira, ele iá executar o bloco de código dentro dela (faca_isso).
 
 **Sintaxe**:
 ```ruby
@@ -1135,8 +1137,7 @@ unless condicao
 end
 ```
 
-### Operador ternário
-> Usado para estruturas condicionais de pequeno porte.
+Operador ternário Usado para estruturas condicionais de pequeno porte.
 
 ```ruby
 valor > 50 ? puts "Eu sou maior que 50" : puts "Eu sou menor que 50"
@@ -1146,7 +1147,8 @@ valor > 50 ? puts "Eu sou maior que 50" : puts "Eu sou menor que 50"
 #   puts "Eu sou menor que 50"
 ```
 
-### Switch case
+Switch case
+
 ```ruby
 linguagem = "ruby"
 case linguagem
@@ -1259,7 +1261,7 @@ end
 Eu não tenho nada
 </pre>
 
-## Laços de Repetição (Loops)
+## [Ruby] Laços de Repetição (Loops)
 Os laços ou loops, são formas de executar repetitivamente uma operação a fim de obedecer a uma estrutura condicional.
 
 ### `While`
