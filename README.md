@@ -1054,7 +1054,8 @@ puts "Seu nome é #(nome)"
 ```
 
 ## Estruturas Condicionais
-### Sintaxe
+
+Sintaxe
 ```ruby
 if condicao 
   faca_algo
@@ -1063,7 +1064,9 @@ else
 end
 ```
 
-### Operadores relacionais
+# [Ruby] Operadores 
+
+Operadores relacionais
 ```ruby
 == # igualdade
 != # diferente
@@ -1074,14 +1077,15 @@ end
 ```
 
 
-### Operadores lógicos
+Operadores lógicos
 ```ruby
 ! # Negação
 && # And
 || # Or 
 ```
 
-### Estrutura condicional com operadores relacionais
+Estrutura condicional com operadores relacionais
+
 ```ruby
 valor = 20
 if valor > 50
