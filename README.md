@@ -311,7 +311,7 @@ ruby main.rb
 Hello World
 </pre>
 
-# 💎 [Ruby] DDD, BDD e TDD
+# 🧪 [Ruby] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="77" align="right"></a>
 
 O **RSpec** é uma ferramenta de teste de comportamento para o framework Ruby on Rails. Ele permite que os desenvolvedores escrevam testes que descrevem o comportamento esperado do código, em vez de apenas testar se o código funciona corretamente. O RSpec é baseado na abordagem Behavior-Driven Development (BDD), que enfatiza a colaboração entre desenvolvedores, gerentes de produto e outros stakeholders para definir o comportamento esperado do software. Em resumo, o RSpec é uma ferramenta poderosa para testar o comportamento do código Ruby on Rails, e é amplamente utilizada na comunidade de desenvolvimento de software.
