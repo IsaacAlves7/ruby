@@ -1118,7 +1118,8 @@ end
 > Apenas `nil` e `false` são avaliados como **falso**, se por acaso tiver um parênteses vazio será do valor lógico **true**.
 
 
-### Estrutura condicional com uma linha de condição
+Estrutura condicional com uma linha de condição:
+
 ```ruby
 valor = 20
 puts "Eu sou maior que 50" if valor > 50 
