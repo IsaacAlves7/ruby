@@ -1611,7 +1611,8 @@ nova_variavel ||= 100
 nova_variavel
 ```
 
-## Exercício 01: Análise de Palíndromo
+Exercício 01: Análise de Palíndromo
+
 <div align="center"><img src="https://c.tadst.com/gfx/1200x630/palindrome-bob.png?1" height="177"></div><br \>
 
 > **Palíndromo**: São palavras que são iguais quando lidas de frente para trás e de trás para frente.
