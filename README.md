@@ -958,8 +958,8 @@ p lista[1]
 2.7
 </pre>
 
-### Incluir um novo elemento na lista
-**(Input) Entrada**
+Incluir um novo elemento na lista:
+
 ```ruby
 lista = [1, 2.7, "3", "isaac", true] # elementos do tipo int, float, string e boolean (TrueClass)
 lista << "novo item 1"
@@ -973,7 +973,8 @@ p lista
 [1, 2.7, "3", "isaac", true, "novo item 1", "novo item 2"]
 </pre>
 
-### Outros métodos para manipular Arrays
+Outros métodos para manipular Arrays:
+
 ```ruby
 lista.length # tamanho do array
 lista.empty? # verifica se o array está vazio
