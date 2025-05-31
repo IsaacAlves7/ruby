@@ -75,6 +75,14 @@ mensagem = <<~TXT
 TXT
 ```
 
+Colocando prompt:
+
+```ruby
+puts "Digite o seu nome: "
+nome = gets
+puts "Seu nome é #(nome)"
+```
+
 ## [Ruby] Comentário
 ```ruby
 # comentário de uma linha
@@ -1049,13 +1057,6 @@ nome.chomp() # Tira o último caractere social, no caso, o \n
 nome = nome.chomp
 # ou
 nome = gets.chomp
-```
-
-### Colocando prompt
-```ruby
-puts "Digite o seu nome: "
-nome = gets
-puts "Seu nome é #(nome)"
 ```
 
 # 💎 [Ruby] Operadores e expressões
