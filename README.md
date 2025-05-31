@@ -904,7 +904,7 @@ irb
 3
 </pre>
 
-### Dicionário
+## [Ruby] Dicionários
 
 **(Input) Entrada**
 ```ruby
