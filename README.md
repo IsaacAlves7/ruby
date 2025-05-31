@@ -1264,7 +1264,6 @@ Eu não tenho nada
 ## [Ruby] Laços de Repetição (Loops)
 Os laços ou loops, são formas de executar repetitivamente uma operação a fim de obedecer a uma estrutura condicional.
 
-### `While`
 O `while` significa **repetir enquanto a condição for verdadeira**. 
 
 **Entrada (Input)**
@@ -1299,8 +1298,7 @@ end
 `looping infinito do valor`
 </pre>
 
-### `For`
-Funciona semelhante ao `while`, porém você declara uma variável em uma lista de objetos.
+`For` Funciona semelhante ao `while`, porém você declara uma variável em uma lista de objetos.
 
 ```ruby
 for i in [1, 2, 3, 4, 5] # para i em algum array, hash ou objeto que corresponde ao `.each`
@@ -1308,8 +1306,7 @@ for i in [1, 2, 3, 4, 5] # para i em algum array, hash ou objeto que corresponde
 end
 ```
 
-### `Until`
-Semelhante ao `while`, a diferença está na condição, que assim quando executar a condição for falsa.
+`Until` Semelhante ao `while`, a diferença está na condição, que assim quando executar a condição for falsa.
 
 ```ruby
 valor = 0
@@ -1319,7 +1316,8 @@ until valor == 10
 end  
 ```
 
-### Alguns comandos usados em laços
+Alguns comandos usados em laços
+
 ```ruby
 break # sair do laço
 return # sair do laço e do método onde o laço está contido
