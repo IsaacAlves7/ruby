@@ -1674,7 +1674,7 @@ Estou somando 5 e 0
 5
 </pre>
 
-## Atribuição condicional de variável (Attributes)
+## [Ruby] Atribuição condicional de variável
 ```ruby
 variavel = nil
 variavel = "Algum valor" if variavel.nil?
