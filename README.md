@@ -1752,7 +1752,7 @@ Digite alguma palavra ou número:
 true
 </pre>
 
-## Métodos e atributos para as instâncias de um objeto
+## [Ruby] Métodos e atributos para as instâncias de um objeto
 Foi feita uma **classe** chamada `NomeDaClasse`, porém essa está em branco (BLANK).
 
 Sintaxe de uma classe em Ruby:
@@ -1871,7 +1871,7 @@ pessoa.nome = "Foo"
 pessoa.nome
 ```
 
-## 💎 [Ruby] Getters e Setters 
+## [Ruby] Getters e Setters 
 Para **getters** e **setters** em Ruby, utilizamos o método `attr_accessor` para uma variável `:nome`. Dessa forma, faz o objeto se comportar da mesma forma como anteriormente, ou seja, a gente cria um objeto e a gente troca esse objeto com o atributo (variável) `:nome` e a gente retorna esse objeto.
 
 [![.RB](https://img.shields.io/badge/exemplo.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
@@ -1897,8 +1897,6 @@ pessoa.nome
 ```
 
 Se for o caso de criar **somente um getter** podemos usar o `attr_reader` e se for o caso de **apenas um setter** podemos usar o `att_writter`.
-
-## Colocando a mão na massa em Poo Ruby
 
 [![.RB](https://img.shields.io/badge/Pessoa.rb-fff?style=social&logo=Ruby&logoColor=990000)](#)
 
@@ -2092,7 +2090,7 @@ objeto.instance_variable_get(:@nome)
 => "isaac" 
 ```
 
-## Importando outros arquivos
+## [Ruby] Importando outros arquivos
 Imagine a seguinte estrutura de diretórios:
 
 <pre>
@@ -2166,7 +2164,7 @@ carro = Carro.new("carro", foo)
 ap foo # método da biblioteca importada
 ```
 
-## 💎 [Ruby] Herança
+## [Ruby] Herança
 O conceito de herança é quando uma classe precisa herdar as funcionalidades de outra classe.
 
 ![Herança (Poo Ruby)](https://user-images.githubusercontent.com/61624336/174844671-6f1021e0-c634-4d29-8efe-46d04b5c315d.png)
@@ -2601,6 +2599,7 @@ pessoa.send(:falar)
 ```
 
 Exercício 02: Conta bancária
+
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/bank_1f3e6.png" height="177"></div>
 
 Desafio:
