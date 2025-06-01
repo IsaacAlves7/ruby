@@ -340,29 +340,6 @@ ruby main.rb
 Hello World
 </pre>
 
-# 🧪 [Ruby] DDD, BDD e TDD
-<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="77" align="right"></a>
-
-O **RSpec** é uma ferramenta de teste de comportamento para o framework Ruby on Rails. Ele permite que os desenvolvedores escrevam testes que descrevem o comportamento esperado do código, em vez de apenas testar se o código funciona corretamente. O RSpec é baseado na abordagem Behavior-Driven Development (BDD), que enfatiza a colaboração entre desenvolvedores, gerentes de produto e outros stakeholders para definir o comportamento esperado do software. Em resumo, o RSpec é uma ferramenta poderosa para testar o comportamento do código Ruby on Rails, e é amplamente utilizada na comunidade de desenvolvimento de software.
-
-Com o RSpec, os desenvolvedores podem escrever testes que descrevem o comportamento esperado do código, usando uma linguagem natural e fácil de entender. Isso ajuda a garantir que o código esteja funcionando corretamente e atendendo aos requisitos do projeto.
-Algumas das principais características do RSpec incluem:
-
-- Descrição de comportamento: O RSpec permite que os desenvolvedores descrevam o comportamento esperado do código, em vez de apenas testar se o código funciona corretamente.
-- Testes de unidade: O RSpec pode ser usado para escrever testes de unidade, que verificam se as unidades de código (como métodos ou funções) estão funcionando corretamente.
-- Testes de integração: O RSpec também pode ser usado para escrever testes de integração, que verificam se as diferentes unidades de código estão funcionando corretamente juntas.
-- Relatórios de teste: O RSpec fornece relatórios de teste detalhados, que mostram quais testes passaram ou falharam, e por quê.
-
-<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.pinimg.com/564x/5f/34/32/5f3432f3d53c217eebcd22121235ac3a.jpg" height="177"></a></div><br \>
-
-Ruby + Cucumber + Capybara é uma combinação de ferramentas para desenvolvimento de software que visa facilitar a criação de testes automatizados de aceitação, também conhecidos como testes de comportamento. A combinação Ruby + Cucumber + Capybara é amplamente utilizada em projetos de desenvolvimento de software, especialmente aqueles que utilizam o framework Ruby on Rails.
-
-**Cucumber** é uma ferramenta de teste de comportamento que permite que os desenvolvedores escrevam testes em uma linguagem natural. É baseada na abordagem Behavior-Driven Development (BDD). Cucumber é frequentemente usado para testar a interface do usuário e o comportamento do sistema.
-
-**Capybara** é uma ferramenta de teste de aceitação que simula a interação do usuário com a aplicação web. É projetada para ser usada com Cucumber. Capybara fornece uma API simples para interagir com a aplicação web, como clicar em botões, preencher formulários, etc.
-
-Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatizados de aceitação que simulam a interação do usuário com a aplicação web. Isso ajuda a garantir que a aplicação esteja funcionando corretamente e atendendo aos requisitos do projeto.
-
 # 💎 [Ruby] Procedural
 
 Executando um código-fonte:
@@ -3002,6 +2979,29 @@ end
 ```
 
 Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
+
+# 🧪 [Ruby] DDD, BDD e TDD
+<a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="77" align="right"></a>
+
+O **RSpec** é uma ferramenta de teste de comportamento para o framework Ruby on Rails. Ele permite que os desenvolvedores escrevam testes que descrevem o comportamento esperado do código, em vez de apenas testar se o código funciona corretamente. O RSpec é baseado na abordagem Behavior-Driven Development (BDD), que enfatiza a colaboração entre desenvolvedores, gerentes de produto e outros stakeholders para definir o comportamento esperado do software. Em resumo, o RSpec é uma ferramenta poderosa para testar o comportamento do código Ruby on Rails, e é amplamente utilizada na comunidade de desenvolvimento de software.
+
+Com o RSpec, os desenvolvedores podem escrever testes que descrevem o comportamento esperado do código, usando uma linguagem natural e fácil de entender. Isso ajuda a garantir que o código esteja funcionando corretamente e atendendo aos requisitos do projeto.
+Algumas das principais características do RSpec incluem:
+
+- Descrição de comportamento: O RSpec permite que os desenvolvedores descrevam o comportamento esperado do código, em vez de apenas testar se o código funciona corretamente.
+- Testes de unidade: O RSpec pode ser usado para escrever testes de unidade, que verificam se as unidades de código (como métodos ou funções) estão funcionando corretamente.
+- Testes de integração: O RSpec também pode ser usado para escrever testes de integração, que verificam se as diferentes unidades de código estão funcionando corretamente juntas.
+- Relatórios de teste: O RSpec fornece relatórios de teste detalhados, que mostram quais testes passaram ou falharam, e por quê.
+
+<div align="center"><a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://i.pinimg.com/564x/5f/34/32/5f3432f3d53c217eebcd22121235ac3a.jpg" height="177"></a></div><br \>
+
+Ruby + Cucumber + Capybara é uma combinação de ferramentas para desenvolvimento de software que visa facilitar a criação de testes automatizados de aceitação, também conhecidos como testes de comportamento. A combinação Ruby + Cucumber + Capybara é amplamente utilizada em projetos de desenvolvimento de software, especialmente aqueles que utilizam o framework Ruby on Rails.
+
+**Cucumber** é uma ferramenta de teste de comportamento que permite que os desenvolvedores escrevam testes em uma linguagem natural. É baseada na abordagem Behavior-Driven Development (BDD). Cucumber é frequentemente usado para testar a interface do usuário e o comportamento do sistema.
+
+**Capybara** é uma ferramenta de teste de aceitação que simula a interação do usuário com a aplicação web. É projetada para ser usada com Cucumber. Capybara fornece uma API simples para interagir com a aplicação web, como clicar em botões, preencher formulários, etc.
+
+Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatizados de aceitação que simulam a interação do usuário com a aplicação web. Isso ajuda a garantir que a aplicação esteja funcionando corretamente e atendendo aos requisitos do projeto.
 
 # 💎 Construindo um blog com RoR
 Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gorails.com/forum/install-bootstrap-with-webpack-with-rails-6-beta
