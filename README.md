@@ -2980,6 +2980,9 @@ end
 
 Dessa forma, com o método HTTP `get` mirando em `'usuarios'`, onde `to: 'users#index'` que irá criar uma nova rota e nela conter as mesmas funcionalidades da rota `users`, o que é interessante caso o cliente queira acessar essa rota e insire errado, então ele irá acessar rota certa já que foi configurado na aplicação. 
 
+## [RoR] Construindo um blog
+Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gorails.com/forum/install-bootstrap-with-webpack-with-rails-6-beta
+
 # 🧪 [Ruby] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://rspec.info/images/logo.png" height="77" align="right"></a>
 
@@ -3002,9 +3005,6 @@ Ruby + Cucumber + Capybara é uma combinação de ferramentas para desenvolvimen
 **Capybara** é uma ferramenta de teste de aceitação que simula a interação do usuário com a aplicação web. É projetada para ser usada com Cucumber. Capybara fornece uma API simples para interagir com a aplicação web, como clicar em botões, preencher formulários, etc.
 
 Juntas, essas ferramentas permitem que os desenvolvedores criem testes automatizados de aceitação que simulam a interação do usuário com a aplicação web. Isso ajuda a garantir que a aplicação esteja funcionando corretamente e atendendo aos requisitos do projeto.
-
-# 💎 Construindo um blog com RoR
-Para mais detalhes de como inserir o bootstrap numa aplicação RoR: https://gorails.com/forum/install-bootstrap-with-webpack-with-rails-6-beta
 
 # 💎 Deploying: Rails + PostgreSQL
 
