@@ -88,6 +88,27 @@ puts "Seu nome é #(nome)"
 # comentário de uma linha
 ```
 
+## [Ruby] Entrada de dados
+Como faz para capturar um input da tela padrão do computador, existe um método chamado `gets`, ele possibilita fazer um prompt da entrada padrão. Assim, que a gente entrar um valor na entrada padrão, esse valor vai ser acessado pra que a gente consiga acessa-lo depois.
+
+```ruby
+gets()
+# ou
+gets
+```
+
+**Sintaxe**
+```ruby
+nome = gets
+nome
+puts nome
+nome.chomp() # Tira o último caractere social, no caso, o \n
+# ou
+nome = nome.chomp
+# ou
+nome = gets.chomp
+```
+
 # 💎 [Ruby] Gerenciadores de versões
 <a href="https://github.com/IsaacAlves7/ruby-programming"><img src="https://avatars.githubusercontent.com/u/2589612?s=280&v=4" height="77" align="right"></a>
 
@@ -1037,27 +1058,6 @@ p resultado
 <pre>
 [0, 1, 2, 3, 4, 5, 6, 7]
 </pre>
-
-## Entrada de dados
-Como faz para capturar um input da tela padrão do computador, existe um método chamado `gets`, ele possibilita fazer um prompt da entrada padrão. Assim, que a gente entrar um valor na entrada padrão, esse valor vai ser acessado pra que a gente consiga acessa-lo depois.
-
-```ruby
-gets()
-# ou
-gets
-```
-
-**Sintaxe**
-```ruby
-nome = gets
-nome
-puts nome
-nome.chomp() # Tira o último caractere social, no caso, o \n
-# ou
-nome = nome.chomp
-# ou
-nome = gets.chomp
-```
 
 # 💎 [Ruby] Operadores e expressões
 
